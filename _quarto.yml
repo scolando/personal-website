@@ -1,0 +1,27 @@
+project:
+  type: website
+
+website:
+  title: "Sara Colando"
+  navbar:
+    right:
+      - href: about.qmd
+        text: "About"
+      - href: research.qmd
+        text: "Research"
+      - href: projects.qmd
+        text: "TidyTuesdays"
+      - href: blog.qmd
+        text: "Blogs"
+      - href: cv.qmd
+        text: "CV"
+        
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+

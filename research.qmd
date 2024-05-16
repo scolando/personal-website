@@ -1,0 +1,14 @@
+---
+title: "Research"
+format:
+  html:
+    toc: false
+listing: 
+  contents: research
+  type: default
+  fields: [image, title, author, description]
+---
+
+heello
+
+## Research Projects

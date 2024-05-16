@@ -1,0 +1,4 @@
+---
+title: "Implementing a Partially Bayesian Neural Network for BrainTumor Segmentation"
+author: Sara Colando
+---

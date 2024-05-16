@@ -1,0 +1,163 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Welcome to my website!\nI am a first-year Ph.D. student in Carnegie Mellon’s Statistics and Data Science department. Before that, I attended Pomona College in Claremont, California, where I completed a double major in mathematics and philosophy. At Pomona, I worked primarily with Jo Hardin, conducting research in statistical genomics and data science ethics pedagogy.\nOutside of research, I really enjoy mentoring (doing so for Statistical Linear Models, Introduction to Biostatistics, Linear Algebra, Introductory Genetics, and Pomona’s 1-2-1 math summer bridge program) and am also a big data visualization nerd and try to spend some time creating a new one each week as part of TidyTuesday (a community activity put on by the Data Science Learning Community). In my free time, I also really enjoy running and was part of Pomona-Pitzer’s Cross Country and Track and Field teams during my four years at Pomona.\nAnother primary interest of mine is philosophy, especially (feminist) philosophy of science, ethics, and epistemology. I hope to stay engaged in philosophy and, with that, continue to understand the ethical dimensions of statistical technologies while completing my Ph.D. at Carnegie Mellon."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\n Ph.D. in Statistics and Data Science (in progress)\n\nCarnegie Mellon University\n\n B.A. in Mathematics and Philosophy (May 2024)\n\nPomona College"
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact\n skca2020@mymail.pomona.edu"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "TidyTuesday Creations",
+    "section": "",
+    "text": "TidyTuesday is a weekly community activity put on the the Data Science Learning Community. I try to spend a little time each week creating a data visualization or model with the data posted to the official TidyTuesday GitHub Repository (linked below)."
+  },
+  {
+    "objectID": "projects.html#highlighted-creations",
+    "href": "projects.html#highlighted-creations",
+    "title": "TidyTuesday Creations",
+    "section": "Highlighted Creations",
+    "text": "Highlighted Creations\nHere are some of my favorite data visualizations that I have made from TidyTuesday over the past two years.\n05/07/2024: Demographics of the Rolling Stone’s Top 500 Albums of All Time in 2003 vs. 2012 vs. 2020\n\n\n\n\n\n03/05/2024: The Mr. Trash Wheel Fleet’s Collected Garbage over the Years\n\n\n\n\n\n11/28/2023: Dr. Who Distribution of Episode Rankings Based on the Episode Writer\n\n\n\n\n\n10/24/2023: Difference between the Taylor’s Version and the Old Version of Songs from Fearless and Red\n\n\n\n\n\n03/21/2023: Coding Language Creation over the Years\n\n\n\n\n\n12/20/2022: Seattle Weather in 2021\n\n\n\n\n\n07/05/2022: Changes in Median Rent Prices and Percent on Apartments by Neighborhood in San Francisco"
+  },
+  {
+    "objectID": "projects.html#helpful-resources",
+    "href": "projects.html#helpful-resources",
+    "title": "TidyTuesday Creations",
+    "section": "Helpful Resources",
+    "text": "Helpful Resources\nIf you are interested in participating in TidyTuesday yourself, here are some resources that I have found helpful for starting:\n\n1. Finding Inspiration\nWhen beginning TidyTuesdays, I find it super helpful to take inspiration from what others have done with the data either this week or in previous weeks. X (i.e., Twitter), Fossodon, and sometimes even Google searches are a great way of gaining inspiration from others!\n\n\n Search “#tidytuesday” on X\n\n\nhttps://github.com/rfordatascience/tidytuesday\n\n\n\n\n Search “#tidytuesday” on Mastodon\n\n\nhttps://fosstodon.org/tags/tidytuesday\n\n\n\n\n2. Loading in the Data\nUsually, I read the data into an .Rmd file using the code block that looks like the following:\n```{r}\ndataset_1 &lt;- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/some_date/dataset_1.csv')\n```\nHowever, you can also read in the data via the following methods:\n\n\n3. Analyzing and Visualizing the Data\nAfter that, the world (or, in this case, data) is your oyster! I primarily use Tidyverse to create my TidyTuesday data visualizations and models, so I appreciate the following cheat sheets:\n\n\n stringr Cheat Sheet PDF\n\n\nhttps://rstudio.github.io/cheatsheets/strings.pdf\n\n\n\n\n dplyr Cheat Sheet PDF\n\n\nhttps://rstudio.github.io/cheatsheets/data-transformation.pdf\n\n\n\n\n GGPlot2 Cheat Sheet PDF\n\n\nhttps://rstudio.github.io/cheatsheets/data-visualization.pdf"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "skca2020@mymail.pomona.edu"
+  },
+  {
+    "objectID": "contact.html#email",
+    "href": "contact.html#email",
+    "title": "Contact",
+    "section": "",
+    "text": "skca2020@mymail.pomona.edu"
+  },
+  {
+    "objectID": "research/chip-seq/chip-seq.html",
+    "href": "research/chip-seq/chip-seq.html",
+    "title": "Selecting ChIP-Seq Normalization Methods from the Perspective of their Technical Conditions",
+    "section": "",
+    "text": "Within the last two decades, high throughput sequencing has become one of the most popular methods for data generation within genomics, epigenomics, and transcriptomics. A popular method of high throughput sequencing is chromatin immunoprecipitation followed by high throughput sequencing, or ChIP-Seq. ChIP-Seq data provides vital insights into locations on the genome where there are differences in DNA occupancy between experimental states (i.e., differential DNA occupancy). However, since ChIP-Seq data is collected experimentally, it must be normalized to assess which genomic regions have differential DNA occupancy. While normalization is an essential step in identifying genomic regions with differential DNA occupancy, the primary technical conditions underlying ChIPSeq normalization methods have yet to be meticulously examined in the academic literature. In this thesis, we identify three primary technical conditions underlying ChIP-Seq between-sample normalization methods: (1) Symmetric Differential DNA Occupancy, (2) Equal Amount of Total DNA Occupancy, and (3) Equal Amount of Total Background Binding. We then categorize popular ChIP-Seq normalization methods based on the technical conditions they use to normalize between experimental states. A major contribution of this thesis is our ChIP-Seq read count simulation results, which validate our categorization of the normalization methods by their technical conditions. We conclude by underscoring how our findings demonstrate that not all normalization methods are equally effective on all kinds of ChIP-Seq data. Instead, our results emphasize that biologists should use their understanding of the ChIP-Seq experiment at hand to guide their choice of normalization method."
+  },
+  {
+    "objectID": "research/data-ethics/data-ethics.html",
+    "href": "research/data-ethics/data-ethics.html",
+    "title": "Philosophy as Integral to a Data Science Ethics Course",
+    "section": "",
+    "text": "There is wide agreement that ethical considerations are a valuable aspect of a data science curriculum, and to that end, many data science programs offer courses in data science ethics. There are not always, however, explicit connections between data science ethics and the centuries-old work on ethics within the discipline of philosophy. Here, we present a framework for bringing together key data science practices with ethical topics. The ethical topics were collated from sixteen data science ethics courses with public-facing syllabi and reading lists. We encourage individuals who are teaching data science ethics to engage with the philosophical literature and its connection to current data science practices, which is rife with potentially morally charged decision points."
+  },
+  {
+    "objectID": "research/horses/horses.html",
+    "href": "research/horses/horses.html",
+    "title": "Clustering Race Horse Movement Profiles to Discover Trends in Injured Horses",
+    "section": "",
+    "text": "Between 2009 and 2021, over 7,200 horses died or were euthanized due to racing-related injuries. Using horse profile data and horse tracking data from the NYRA, we hoped to identify horses who under-raced between 2019 and 2021, cluster movement profiles for horses who raced in 2019 New York races, and discover whether certain profiles were more associated with injured horses.\nBy fitting a negative binomial model on horse profile data and performing residual analysis, we discovered that at least 251 horses under-raced between 2019 and 2021. Additionally, clustering horse movement profiles revealed that a horse’s speed profile is most associated with its injury status: specifically, greater variation in speed is more associated with injury.\nDone in through Carnegie Mellon’s Sports Analytics Camp and via an external partnership with Joseph Appelbaum at the New York Thoroughbred Horsemen’s Association."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "heello"
+  },
+  {
+    "objectID": "research.html#research-projects",
+    "href": "research.html#research-projects",
+    "title": "Research",
+    "section": "Research Projects",
+    "text": "Research Projects"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sara Colando",
+    "section": "",
+    "text": "I am a first-year Ph.D. student in the Department of Statistics and Data Science at Carnegie Mellon University. I graduated this Spring from Pomona College, where I double majored in Mathematics and Philosophy.\nSince Summer 2022, I have been heavily involved in biostatistics research in genomics – investigating technical conditions that underlie ChIP-Seq normalization methods with Jo Hardin at Pomona. I am also passionate about work at the intersection of statistics, data science, and philosophy, particularly related to data science ethics. Find out more about my interests and past experiences by browsing the site!"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "(206) 852-5922 | skca2020@mymail.pomona.edu | Seattle, WA"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\nCarnegie Mellon University, Pittsburgh, Pennsylvania May 2029 Doctor of Philosophy in Statistics and Data Science\nPomona College, Claremont, California May 2024 Bachelor of Arts in Mathematics and Philosophy, GPA: 3.99/4.00\n\nMath Coursework: Methods in Biostatistics, Statistical Linear Models, Statistical Theory, Probability, Mathematical Analysis I, Methods in Modern Modeling, Data Analysis for the Life Sciences, Differential Equations and Modeling, Combinatorics, Vector Calculus, Linear Algebra\nPhilosophy Coursework: Advanced Philosophy Seminar: The Nature of Bias, Epistemology, Philosophy of Science, Well-being and Autonomy, Philosophy of Mind, Logic, Social Philosophy, Introduction to Ethics"
+  },
+  {
+    "objectID": "cv.html#publications",
+    "href": "cv.html#publications",
+    "title": "Curriculum Vitae",
+    "section": "Publications",
+    "text": "Publications\nColando, S., Hardin, J. Philosophy as Integral to a Data Science Ethics Course, Journal of Statistics and Data Science Education, accepted, 2023. Preprint."
+  },
+  {
+    "objectID": "cv.html#research-experience",
+    "href": "cv.html#research-experience",
+    "title": "Curriculum Vitae",
+    "section": "Research Experience",
+    "text": "Research Experience\nPomona College Department of Mathematics and Statistics Biostatistics Research Assistant to Professor Jo Hardin May 2022 - Present\n\nAnalyzing ChIP-Seq normalization techniques by their biological and technical assumptions to help improve differential-binding analysis practices\nCreating reproducible ChIP-Seq read count simulations using R, Unix, and High-Performance Computing to test how violating normalization method assumptions affects the false discovery rate and power of identifying true differentially bound regions\nSummer 2022 Report\n\nData Science Ethics Independent Project Supervised by Professor Jo Hardin May 2023 - Oct 2023\n\nSynthesized resources and pedagogies of existing Data Science Ethics undergraduate courses to connect key ethical concepts to data science practices\nCreated a website to effectively communicate data science ethics concepts and relevant background information to a broad community of decision-makers (Created Website)\nAided in Pomona College’s development of an ethics course for the recently approved data science minor\n\nCarnegie Mellon University Department of Statistics and Data Science Research Assistant to Professor Ron Yurko May 2023 - Nov 2023\n\nPerforming mixture-model clustering analysis to discover trends in movement patterns for injured racehorses\nIdentifying horses who under-raced through residual analysis of a created expected race count model\nEngaged in 8 weeks of lectures about popular statistical analysis techniques, data engineering, and novel data science methodologies employed in sports analytics\nSummer 2023 Report\n\nSelf-Directed Project Data Analysis and Visualization Creator Jan 2021 - Present\n\nConducting exploratory data analysis in R to improve data visualization and communication skills every week using data provided by the “R for Data Science” Online Learning Community\nHelping students new to R become more familiar with the programming language and troubleshoot errors in 2-hour Pomona TidyTuesday workshop offered each week\nTidyTuesday Portfolio\n\nUniversity of California, San Diego Halıcıoğlu Data Science Institute Intelligence, Data, Ethics, and Society (IDEAS) Summer Institute Participant Aug 2023\n\nParticipated in workshops taught by experts in domains like data science, AI, philosophy, and law to improve critical and interdisciplinary thinking on data science and AI ethics topics\nCollaborated with three other students on a two-week research project, examining practical methods of implementing responsible data science and AI practices in a California wildfire resource allocation algorithm\n\nUniversity of Michigan School of Public Health  Big Data Summer Institute Research Assistant to Dr. Nikola Banovic June – Aug 2022\n\nCollaborated with three other students to implement a partially Bayesian neural network to quantify and communicate prediction uncertainty in a supervised brain tumor segmentation model via Python’s PyTorch and TensorFlow packages\nParticipated in 6 weeks of lectures about ethical data collection practice in healthcare, probability and statistical theory, and the ethical implications of using statistics and computer science methods in healthcare settings\nSummer 2022 Research Poster"
+  },
+  {
+    "objectID": "cv.html#mentorship-experience",
+    "href": "cv.html#mentorship-experience",
+    "title": "Curriculum Vitae",
+    "section": "Mentorship Experience",
+    "text": "Mentorship Experience\nPomona College Department of Mathematics and Statistics Course Mentor and Grader Jan 2021 – May 2024\n\nLed 2-hour mentor sessions each week to help students with homework and course material for Statistical Linear Models (Spring 2024) Introduction to Biostatistics (Spring 2023) and Linear Algebra (Fall 2021)\nWorked with co-mentors and professors to foster inclusivity and collaboration within small and large group environments\nGraded problem sets each week for 30+ students, with personalized feedback, within the professor’s desired time frame for Statistical Linear Models (Spring 2024), Introduction to Biostatistics (Spring 2023), Calculus I (Spring 2022), and Linear Algebra (Spring and Fall 2021)\n\n1-2-1 Summer Bridge Program Teacher’s Assistant June – Sep 2021\n\nLed 1.5-hour meetings for three small cohorts, consisting of incoming Pomona College students, twice per week\nTaught mathematical concepts (e.g., logic, calculus, combinatorics, number theory) to incoming undergraduate students\nOrganized group bonding by preparing icebreakers and virtual games for 40+ students in the cohort\nProvided individualized feedback on cohort members’ submitted problem sets three times a week\n\nPomona College Center for Speaking, Writing, and the Image Course Writing Partner Aug 2023 - Present\n\nProviding meaningful writing feedback to students from diverse writing backgrounds in one-on-one and small group settings; attached writing partner for the Critical Inquiry Seminar (ID1): I Disagree (Fall 2023)\n\nPomona College Department of Biology Introductory Genetics w/ Lab Course Mentor and Grader Aug – Dec 2022\n\nAnswered student questions within lectures twice a week\nCo-hosted mentor sessions to help students with problem sets and course concepts\nCollaborated with the professors to ensure inclusivity, peer collaboration, and student learning were optimized within classroom and mentor session environments\nGraded 30+ problem sets each week and provided individualized feedback to each student"
+  },
+  {
+    "objectID": "cv.html#leadership-and-service",
+    "href": "cv.html#leadership-and-service",
+    "title": "Curriculum Vitae",
+    "section": "Leadership and Service",
+    "text": "Leadership and Service\nPomona College Department of Philosophy Search and Selection Committee Member Aug 2023 - Present\n\nInvited to be the sole student representative by Pomona’s Philosophy Department\nParticipated in the search and selection process for a new tenure-track philosophy professor\nProvided input into applicant’s dossiers and sitting in on interviews to provide student feedback on applicants\n\nPomona-Pitzer Athletics Department Women’s Cross Country Team Captain Aug – Nov 2023\n\nFacilitated an inclusive and healthy team dynamic between coaches and teammates through biweekly captain meetings,team socials, and check-ins with teammates"
+  },
+  {
+    "objectID": "cv.html#presentations",
+    "href": "cv.html#presentations",
+    "title": "Curriculum Vitae",
+    "section": "Presentations",
+    "text": "Presentations\n\nColando, S., Pipping, J., Wilson K. Clustering Race Horse Movement Profiles to Discover Trends in Injured Horses, Carnegie Mellon Sports Analytics Conference 2023, November 2023\nColando, S. Analyzing Data Science Ethics Pedagogies, Claremont Center for Mathematical Sciences Poster Session, September 2023\nColando, S. Analyzing Data Science Ethics Pedagogies, Intensive Summer Experience Symposium, September 2023\nColando, S., Pipping, J., Wilson K. Clustering Race Horse Movement Profiles to Discover Trends in Injured Horses, Summer Undergraduate Research Experience (SURE) 2023 Project Showcase, July 2023\nColando, S. Panelist for Pomona Funded Summer Experiences Informational Session, Family Weekend, October 2022.\nColando, S. Analyzing Chromatin Immunoprecipitation Normalization Techniques through the Lens of their Biological Assumptions, Intensive Summer Experience Symposium, September 2022\nColando, S. Analyzing Chromatin Immunoprecipitation Normalization Techniques through the Lens of their Biological Assumptions, Claremont Center for Mathematical Sciences Poster Session, September 2022\nChu, C., Colando, S., Nandi, D., Serrano, X. Quantifying Uncertainty in a Tumor Segmentation Model. A Symposium on Big Data, Human Health, and Statistics. July 2022"
+  },
+  {
+    "objectID": "cv.html#honors-and-awards",
+    "href": "cv.html#honors-and-awards",
+    "title": "Curriculum Vitae",
+    "section": "Honors and Awards",
+    "text": "Honors and Awards\n\nBlair Nixon Award 2024\n\nGiven to a senior student who exemplifies the high ideals of the College in scholarship, sportsmanship, and organized athletic pursuits.\n\nBruce Jay Levy Senior Prize 2024\n\nGiven to a senior in the mathematics department who throughout their time at Pomona has demonstrated a commitment to collaborative learning, fostering an inclusive mathematical community, and to expanding their own academic comfort zone.\n\nPhi Beta Kappa, Pomona College 2024\nSigma Xi, Pomona College 2024\nGraduated Magna Cum Laude 2024\nPomona College Scholar 2020 - 2024\n\nAwarded each semester to the top 25% of the class\n\nPomona College Women’s Cross Country and Track and Field Varsity Letter Recipient 2021-2024"
+  },
+  {
+    "objectID": "cv.html#computer-and-language-skills",
+    "href": "cv.html#computer-and-language-skills",
+    "title": "Curriculum Vitae",
+    "section": "Computer and Language Skills",
+    "text": "Computer and Language Skills\n\nComputer – Programming languages including R, Python, Unix, and SQL\nLanguage – Spanish (conversational proficiency)"
+  }
+]

@@ -1,7 +1,7 @@
 ---
 title: "Philosophy as Integral to a Data Science Ethics Course"
 author: Sara Colando, Jo Hardin
-featured: true
+date: May 2023
 about:
   template: solana
   links:

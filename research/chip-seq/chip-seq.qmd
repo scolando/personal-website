@@ -1,6 +1,7 @@
 ---
 title: "Selecting ChIP-Seq Normalization Methods from the Perspective of their Technical Conditions"
 author: Sara Colando, Jo Hardin
+date: May 2022
 about:
   template: solana
   links:

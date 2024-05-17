@@ -1,4 +1,9 @@
 ---
 title: "Blogs"
 author: Sara Colando
+listing: 
+  contents: blogs
+  type: table
+  sort: date
+  fields: [image, title, author, date]
 ---

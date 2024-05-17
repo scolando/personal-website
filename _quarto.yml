@@ -1,9 +1,12 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Sara Colando"
+  favicon: personal-website-hex-sticker.png
   navbar:
+    logo: personal-website-hex-sticker.png
     right:
       - href: about.qmd
         text: "About"

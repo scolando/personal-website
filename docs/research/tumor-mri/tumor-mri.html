@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Sara Colando">
+<meta name="author" content="Claire Chu, Sara Colando, Dhruba Nandi, Xavier Serrano">
+<meta name="dcterms.date" content="2022-07-01">
 
-<title>Sara Colando - Implementing a Partially Bayesian Neural Network for BrainTumor Segmentation</title>
+<title>Sara Colando - Implementing a Partially Bayesian Neural Network for Brain Tumor Segmentation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,10 +32,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
+<link href="../../personal-website-hex-sticker.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -65,13 +66,16 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../personal-website-hex-sticker.png" alt="" class="navbar-logo">
+    </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Sara Colando</span>
     </a>
@@ -113,39 +117,52 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-about-solana column-body">
+  <div class="about-entity">
+    <div class="entity-contents">
+      <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Implementing a Partially Bayesian Neural Network for BrainTumor Segmentation</h1>
+<h1 class="title">Implementing a Partially Bayesian Neural Network for Brain Tumor Segmentation</h1>
 </div>
-
-
-
 <div class="quarto-title-meta">
-
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Sara Colando </p>
+             <p>Claire Chu, Sara Colando, Dhruba Nandi, Xavier Serrano </p>
           </div>
   </div>
-    
-  
-    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 1, 2022</p>
+    </div>
   </div>
-  
+  </div>
+</header> <div class="about-links">
+  <a href="/tumor-mri.qmd" class="about-link" rel="" target="">
+     <span class="about-link-text">Academic Poster PDF</span>
+  </a>
+  <a href="/tumor-mri.qmd" class="about-link" rel="" target="">
+     <span class="about-link-text">Power Point PDF</span>
+  </a>
+</div>
+      <div class="about-contents"><main class="content" id="quarto-document-content">
+<p><img src="featured.png" class="img-fluid" style="width:100.0%"></p>
+<p>Radiologists segment tumors from MRI scans to determine treatment plans such as surgical resection or radiation therapy, wheras neural networks can streamline the segmentation process to ensure ideal tumor removal and reduce the burden on radiologists. However, these black-box models currently lack explainability, which leads to a lack of trust from different end users like physicians and patients when used to segment brain tumors. Uncertainty Quantification communicates to stakeholders: (a) if and when they should trust model predictions and (b) how fair these predictions are on sample-wide and patient-specific cases. Therefore, Uncertainty Quantification enhances a model’s transparency by exposing a model’s properties to various stakeholders to better understand, improve, and contest the model’s predictions. In this project, we aim to quantify model uncertainty by using a partially bayesian neural network to communicate where the model is uncertain of its prediction of a pixel being classified as “tumor” or “non-tumor.” In particular, we aim to address the following questions:</p>
+<ol type="1">
+<li>Where is this model failing, and how is it failing to properly segment the tumor?</li>
+<li>In what cases is the model certain but still making mistakes in tumor segmentation?</li>
+</ol>
+<p>Ultimately, we find that the highest uncertainty is at the boundary regions of the model’s predicted tumor location and the false negative and false positive pixels are highly clustered. Further, we discover that there is generally higher certainty for accurately classified pixels as well as greater certainty for false negatives than false positives pixels. From our findings, we suggest future work in collaboration with clinicians to better understand why model fails in specific brain regions, and why false positive and false negative results tend to cluster. Moreover, we suggest that the model performance and uncertainty levels across should be compared various subsets (e.g., different tumor histologies, tissue source sites, patient sex, vital status, etc.) to investigate whether there are trends in differential model performance across different demographic groups.</p>
 
-</header>
 
-
-
-
-</main> <!-- /main -->
+</main></div>
+    </div>
+  </div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -166,13 +183,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

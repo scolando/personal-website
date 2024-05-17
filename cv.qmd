@@ -1,5 +1,6 @@
 ---
 title: "Curriculum Vitae"
+subtitle: "Last updated May 2024"
 format:
   html:
     toc: true

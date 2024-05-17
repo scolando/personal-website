@@ -1,6 +1,7 @@
 ---
 title: "Clustering Race Horse Movement Profiles to Discover Trends in Injured Horses"
 author: Sara Colando, Jonathan Pipping, Kristopher Wilson
+date: July 2023
 about:
   template: solana
   links:

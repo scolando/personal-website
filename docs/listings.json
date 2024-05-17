@@ -1,11 +1,17 @@
 [
   {
+    "listing": "/blog.html",
+    "items": [
+      "/blogs/applying-grad-school.html"
+    ]
+  },
+  {
     "listing": "/research.html",
     "items": [
-      "/research/horses/horses.html",
+      "/research/chip-seq/chip-seq.html",
       "/research/tumor-mri/tumor-mri.html",
       "/research/data-ethics/data-ethics.html",
-      "/research/chip-seq/chip-seq.html"
+      "/research/horses/horses.html"
     ]
   }
 ]

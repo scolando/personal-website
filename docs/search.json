@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blogs",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\nDate\n\n\n\n\n\n\n\n\n\nApplying to (Bio)statistics PhD Programs\n\n\nSara Colando\n\n\nJun 1, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -56,11 +63,11 @@
     "text": "skca2020@mymail.pomona.edu"
   },
   {
-    "objectID": "research/chip-seq/chip-seq.html",
-    "href": "research/chip-seq/chip-seq.html",
-    "title": "Selecting ChIP-Seq Normalization Methods from the Perspective of their Technical Conditions",
+    "objectID": "research/horses/horses.html",
+    "href": "research/horses/horses.html",
+    "title": "Clustering Race Horse Movement Profiles to Discover Trends in Injured Horses",
     "section": "",
-    "text": "Within the last two decades, high throughput sequencing has become one of the most popular methods for data generation within genomics, epigenomics, and transcriptomics. A popular method of high throughput sequencing is chromatin immunoprecipitation followed by high throughput sequencing, or ChIP-Seq. ChIP-Seq data provides vital insights into locations on the genome where there are differences in DNA occupancy between experimental states (i.e., differential DNA occupancy). However, since ChIP-Seq data is collected experimentally, it must be normalized to assess which genomic regions have differential DNA occupancy. While normalization is an essential step in identifying genomic regions with differential DNA occupancy, the primary technical conditions underlying ChIPSeq normalization methods have yet to be meticulously examined in the academic literature. In this thesis, we identify three primary technical conditions underlying ChIP-Seq between-sample normalization methods: (1) Symmetric Differential DNA Occupancy, (2) Equal Amount of Total DNA Occupancy, and (3) Equal Amount of Total Background Binding. We then categorize popular ChIP-Seq normalization methods based on the technical conditions they use to normalize between experimental states. A major contribution of this thesis is our ChIP-Seq read count simulation results, which validate our categorization of the normalization methods by their technical conditions. We conclude by underscoring how our findings demonstrate that not all normalization methods are equally effective on all kinds of ChIP-Seq data. Instead, our results emphasize that biologists should use their understanding of the ChIP-Seq experiment at hand to guide their choice of normalization method."
+    "text": "Between 2009 and 2021, over 7,200 horses died or were euthanized due to racing-related injuries. Using horse profile data and horse tracking data from the NYRA, we hoped to identify horses who under-raced between 2019 and 2021, cluster movement profiles for horses who raced in 2019 New York races, and discover whether certain profiles were more associated with injured horses.\nBy fitting a negative binomial model on horse profile data and performing residual analysis, we discovered that at least 251 horses under-raced between 2019 and 2021. Additionally, clustering horse movement profiles revealed that a horse’s speed profile is most associated with its injury status: specifically, greater variation in speed is more associated with injury.\nDone in through Carnegie Mellon’s Sports Analytics Camp and via an external partnership with Joseph Appelbaum at the New York Thoroughbred Horsemen’s Association."
   },
   {
     "objectID": "research/data-ethics/data-ethics.html",
@@ -70,25 +77,25 @@
     "text": "There is wide agreement that ethical considerations are a valuable aspect of a data science curriculum, and to that end, many data science programs offer courses in data science ethics. There are not always, however, explicit connections between data science ethics and the centuries-old work on ethics within the discipline of philosophy. Here, we present a framework for bringing together key data science practices with ethical topics. The ethical topics were collated from sixteen data science ethics courses with public-facing syllabi and reading lists. We encourage individuals who are teaching data science ethics to engage with the philosophical literature and its connection to current data science practices, which is rife with potentially morally charged decision points."
   },
   {
-    "objectID": "research/horses/horses.html",
-    "href": "research/horses/horses.html",
-    "title": "Clustering Race Horse Movement Profiles to Discover Trends in Injured Horses",
+    "objectID": "research/chip-seq/chip-seq.html",
+    "href": "research/chip-seq/chip-seq.html",
+    "title": "Selecting ChIP-Seq Normalization Methods from the Perspective of their Technical Conditions",
     "section": "",
-    "text": "Between 2009 and 2021, over 7,200 horses died or were euthanized due to racing-related injuries. Using horse profile data and horse tracking data from the NYRA, we hoped to identify horses who under-raced between 2019 and 2021, cluster movement profiles for horses who raced in 2019 New York races, and discover whether certain profiles were more associated with injured horses.\nBy fitting a negative binomial model on horse profile data and performing residual analysis, we discovered that at least 251 horses under-raced between 2019 and 2021. Additionally, clustering horse movement profiles revealed that a horse’s speed profile is most associated with its injury status: specifically, greater variation in speed is more associated with injury.\nDone in through Carnegie Mellon’s Sports Analytics Camp and via an external partnership with Joseph Appelbaum at the New York Thoroughbred Horsemen’s Association."
+    "text": "Within the last two decades, high throughput sequencing has become one of the most popular methods for data generation within genomics, epigenomics, and transcriptomics. A popular method of high throughput sequencing is chromatin immunoprecipitation followed by high throughput sequencing, or ChIP-Seq. ChIP-Seq data provides vital insights into locations on the genome where there are differences in DNA occupancy between experimental states (i.e., differential DNA occupancy). However, since ChIP-Seq data is collected experimentally, it must be normalized to assess which genomic regions have differential DNA occupancy. While normalization is an essential step in identifying genomic regions with differential DNA occupancy, the primary technical conditions underlying ChIPSeq normalization methods have yet to be meticulously examined in the academic literature. In this thesis, we identify three primary technical conditions underlying ChIP-Seq between-sample normalization methods: (1) Symmetric Differential DNA Occupancy, (2) Equal Amount of Total DNA Occupancy, and (3) Equal Amount of Total Background Binding. We then categorize popular ChIP-Seq normalization methods based on the technical conditions they use to normalize between experimental states. A major contribution of this thesis is our ChIP-Seq read count simulation results, which validate our categorization of the normalization methods by their technical conditions. We conclude by underscoring how our findings demonstrate that not all normalization methods are equally effective on all kinds of ChIP-Seq data. Instead, our results emphasize that biologists should use their understanding of the ChIP-Seq experiment at hand to guide their choice of normalization method."
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
+    "objectID": "research/tumor-mri/tumor-mri.html",
+    "href": "research/tumor-mri/tumor-mri.html",
+    "title": "Implementing a Partially Bayesian Neural Network for Brain Tumor Segmentation",
     "section": "",
-    "text": "heello"
+    "text": "Radiologists segment tumors from MRI scans to determine treatment plans such as surgical resection or radiation therapy, wheras neural networks can streamline the segmentation process to ensure ideal tumor removal and reduce the burden on radiologists. However, these black-box models currently lack explainability, which leads to a lack of trust from different end users like physicians and patients when used to segment brain tumors. Uncertainty Quantification communicates to stakeholders: (a) if and when they should trust model predictions and (b) how fair these predictions are on sample-wide and patient-specific cases. Therefore, Uncertainty Quantification enhances a model’s transparency by exposing a model’s properties to various stakeholders to better understand, improve, and contest the model’s predictions. In this project, we aim to quantify model uncertainty by using a partially bayesian neural network to communicate where the model is uncertain of its prediction of a pixel being classified as “tumor” or “non-tumor.” In particular, we aim to address the following questions:\n\nWhere is this model failing, and how is it failing to properly segment the tumor?\nIn what cases is the model certain but still making mistakes in tumor segmentation?\n\nUltimately, we find that the highest uncertainty is at the boundary regions of the model’s predicted tumor location and the false negative and false positive pixels are highly clustered. Further, we discover that there is generally higher certainty for accurately classified pixels as well as greater certainty for false negatives than false positives pixels. From our findings, we suggest future work in collaboration with clinicians to better understand why model fails in specific brain regions, and why false positive and false negative results tend to cluster. Moreover, we suggest that the model performance and uncertainty levels across should be compared various subsets (e.g., different tumor histologies, tissue source sites, patient sex, vital status, etc.) to investigate whether there are trends in differential model performance across different demographic groups."
   },
   {
-    "objectID": "research.html#research-projects",
-    "href": "research.html#research-projects",
-    "title": "Research",
-    "section": "Research Projects",
-    "text": "Research Projects"
+    "objectID": "blogs/applying-grad-school.html",
+    "href": "blogs/applying-grad-school.html",
+    "title": "Applying to (Bio)statistics PhD Programs",
+    "section": "",
+    "text": "I applied to primarily (Bio)statistics PhD programs during the 2023-2024 application cycle. Coming from a small liberal arts school, I found any and all resources or tidbits of advice incredibly helpful. That said, I wanted to share my advice as well as some of my application materials in this blog post in case others find it helpful."
   },
   {
     "objectID": "index.html",

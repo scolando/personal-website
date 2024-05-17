@@ -1,14 +1,14 @@
 ---
 title: "Research"
+subtitle: Linked below are some of my current and recent research projects.
 format:
   html:
     toc: false
 listing: 
   contents: research
   type: default
-  fields: [image, title, author, description]
+  sort: date
+  fields: [image, title, author, date, description]
 ---
-
-heello
 
 ## Research Projects

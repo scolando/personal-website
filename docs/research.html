@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./personal-website-hex-sticker.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -71,9 +72,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-author','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-author','listing-date','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -104,6 +105,9 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./personal-website-hex-sticker.png" alt="" class="navbar-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Sara Colando</span>
     </a>
@@ -152,6 +156,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Research</h1>
+<p class="subtitle lead">Linked below are some of my current and recent research projects.</p>
 </div>
 
 
@@ -166,7 +171,6 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>heello</p>
 <section id="research-projects" class="level2">
 <h2 class="anchored" data-anchor-id="research-projects">Research Projects</h2>
 
@@ -176,82 +180,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1715383282743" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./research/horses/horses.html"> <p class="card-img-top"><img src="research/horses/featured.png"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./research/horses/horses.html">
-<h3 class="no-anchor listing-title">
-Clustering Race Horse Movement Profiles to Discover Trends in Injured Horses
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-Between 2009 and 2021, over 7,200 horses died or were euthanized due to racing-related injuries. Using horse profile data and horse tracking data from the NYRA, we hoped to…
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./research/horses/horses.html">
-<div class="listing-author">
-Sara Colando, Jonathan Pipping, Kristopher Wilson
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1715784850274" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./research/tumor-mri/tumor-mri.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./research/tumor-mri/tumor-mri.html">
-<h3 class="no-anchor listing-title">
-Implementing a Partially Bayesian Neural Network for BrainTumor Segmentation
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./research/tumor-mri/tumor-mri.html">
-<div class="listing-author">
-Sara Colando
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-file-modified-sort="1715382573424" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./research/data-ethics/data-ethics.html"> <p class="card-img-top"><img src="research/data-ethics/featured.png"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./research/data-ethics/data-ethics.html">
-<h3 class="no-anchor listing-title">
-Philosophy as Integral to a Data Science Ethics Course
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-There is wide agreement that ethical considerations are a valuable aspect of a data science curriculum, and to that end, many data science programs offer courses in data…
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./research/data-ethics/data-ethics.html">
-<div class="listing-author">
-Sara Colando, Jo Hardin
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-file-modified-sort="1715381858537" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1651388400000" data-listing-file-modified-sort="1715892181317" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
 <p><a href="./research/chip-seq/chip-seq.html"> <p class="card-img-top"><img src="research/chip-seq/featured.png"  class="thumbnail-image card-img"/></p> </a></p>
 </div>
@@ -270,8 +199,95 @@ Within the last two decades, high throughput sequencing has become one of the mo
 </div>
 <div class="metadata">
 <a href="./research/chip-seq/chip-seq.html">
+<div class="listing-date">
+May 1, 2022
+</div>
 <div class="listing-author">
 Sara Colando, Jo Hardin
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1656658800000" data-listing-file-modified-sort="1715892139271" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./research/tumor-mri/tumor-mri.html"> <p class="card-img-top"><img src="research/tumor-mri/featured.png"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./research/tumor-mri/tumor-mri.html">
+<h3 class="no-anchor listing-title">
+Implementing a Partially Bayesian Neural Network for Brain Tumor Segmentation
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+Radiologists segment tumors from MRI scans to determine treatment plans such as surgical resection or radiation therapy, wheras neural networks can streamline the…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./research/tumor-mri/tumor-mri.html">
+<div class="listing-date">
+Jul 1, 2022
+</div>
+<div class="listing-author">
+Claire Chu, Sara Colando, Dhruba Nandi, Xavier Serrano
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1682924400000" data-listing-file-modified-sort="1715892226692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./research/data-ethics/data-ethics.html"> <p class="card-img-top"><img src="research/data-ethics/featured.png"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./research/data-ethics/data-ethics.html">
+<h3 class="no-anchor listing-title">
+Philosophy as Integral to a Data Science Ethics Course
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+There is wide agreement that ethical considerations are a valuable aspect of a data science curriculum, and to that end, many data science programs offer courses in data…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./research/data-ethics/data-ethics.html">
+<div class="listing-date">
+May 1, 2023
+</div>
+<div class="listing-author">
+Sara Colando, Jo Hardin
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1688194800000" data-listing-file-modified-sort="1715892250175" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./research/horses/horses.html"> <p class="card-img-top"><img src="research/horses/featured.png"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./research/horses/horses.html">
+<h3 class="no-anchor listing-title">
+Clustering Race Horse Movement Profiles to Discover Trends in Injured Horses
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+Between 2009 and 2021, over 7,200 horses died or were euthanized due to racing-related injuries. Using horse profile data and horse tracking data from the NYRA, we hoped to…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./research/horses/horses.html">
+<div class="listing-date">
+Jul 1, 2023
+</div>
+<div class="listing-author">
+Sara Colando, Jonathan Pipping, Kristopher Wilson
 </div>
 </a>
 </div>

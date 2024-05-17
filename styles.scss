@@ -30,7 +30,7 @@ h1 h1.title {
 }
 
 h2 {
-  font-size: 18px; /* 14px/16=0.875em */
+  font-size: 19px; /* 14px/16=0.875em */
 }
 
 h3 {
@@ -79,4 +79,8 @@ h3 {
 
 .navbar-brand.navbar-brand-logo {
   margin-right: 0.5em !important;
+}
+
+p.subtitle{
+  font-size: 18px;
 }

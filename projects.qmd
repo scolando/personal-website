@@ -45,54 +45,47 @@ TidyTuesday is a weekly community activity put on the the *Data Science Learning
 
 Here are some of my favorite data visualizations that I have made from TidyTuesday over the past two years. Each title has a link to my code for creating the visualization.
 
----
+------------------------------------------------------------------------
 
 **05/07/2024: Demographics of the Rolling Stone's Top 500 Albums of All Time in 2003 vs. 2012 vs. 2020** [{{< iconify octicon link-16 size=sm >}}](https://scolando.github.io/TidyTuesdayCreations/rolling_stone.html)
 
----
+------------------------------------------------------------------------
 
-![](projects/rolling_stone.png){fig-align="right" width="80%"}
----
+## ![](projects/rolling_stone.png){fig-align="right" width="80%"}
 
-**03/05/2024: The Mr. Trash Wheel Fleet's Collected Garbage over the Years**  [{{< iconify octicon link-16 size=sm >}}](https://scolando.github.io/TidyTuesdayCreations/trash_collection.html)
+**03/05/2024: The Mr. Trash Wheel Fleet's Collected Garbage over the Years** [{{< iconify octicon link-16 size=sm >}}](https://scolando.github.io/TidyTuesdayCreations/trash_collection.html)
 
----
+------------------------------------------------------------------------
 
-![](projects/mr_trash_wheel.png){fig-align="left" width="80%"}
----
+## ![](projects/mr_trash_wheel.png){fig-align="left" width="80%"}
 
 **11/28/2023: Dr. Who Distribution of Episode Rankings Based on the Episode Writer** [{{< iconify octicon link-16 size=sm >}}](https://scolando.github.io/TidyTuesdayCreations/drwho.html)
 
----
+------------------------------------------------------------------------
 
-![](projects/doctor_who.png){fig-align="right" width="80%"}
----
+## ![](projects/doctor_who.png){fig-align="right" width="80%"}
 
 **10/24/2023: Difference between the Taylor's Version and the Old Version of Songs from Fearless and Red** [{{< iconify octicon link-16 size=sm >}}](https://scolando.github.io/TidyTuesdayCreations/TaylorSwift.html)
 
----
+------------------------------------------------------------------------
 
-![](projects/taylor_swift.png){fig-align="left" width="80%"}
----
+## ![](projects/taylor_swift.png){fig-align="left" width="80%"}
 
 **03/21/2023: Coding Language Creation over the Years** [{{< iconify octicon link-16 size=sm >}}](https://rpubs.com/scolando/Tidy-Tuesday-03-21-2023)
 
----
+------------------------------------------------------------------------
 
-![](projects/coding_languages.png){fig-align="right" width="80%"}
----
+## ![](projects/coding_languages.png){fig-align="right" width="80%"}
 
 **12/20/2022: Seattle Weather in 2021** [{{< iconify octicon link-16 size=sm >}}](https://rpubs.com/scolando/Tidy-Tuesday-12-20-2022)
 
----
+------------------------------------------------------------------------
 
-![](projects/seattle_weather.png){fig-align="left" width="80%"}
----
+## ![](projects/seattle_weather.png){fig-align="left" width="80%"}
 
 **07/05/2022: Changes in Median Rent Prices and Percent of Apartments by Neighborhood in San Francisco** [{{< iconify octicon link-16 size=sm >}}](https://rpubs.com/scolando/Tidy-Tuesday-07-05-2022)
 
-
----
+------------------------------------------------------------------------
 
 ![](projects/sf_rentals.png){fig-align="right" width="80%"}
 
@@ -106,7 +99,7 @@ When beginning TidyTuesdays, I find it super helpful to take inspiration from wh
 
 ::: link
 ::: link-header
-#### {{< iconify simple-icons:x >}} Search “#tidytuesday” on X
+#### {{< iconify simple-icons:x >}} Search "#tidytuesday" on X
 :::
 
 ::: link-container
@@ -116,7 +109,7 @@ When beginning TidyTuesdays, I find it super helpful to take inspiration from wh
 
 ::: link
 ::: link-header
-#### {{< iconify simple-icons:mastodon >}} Search “#tidytuesday” on Mastodon
+#### {{< iconify simple-icons:mastodon >}} Search "#tidytuesday" on Mastodon
 :::
 
 ::: link-container
@@ -126,7 +119,7 @@ When beginning TidyTuesdays, I find it super helpful to take inspiration from wh
 
 ### 2. Loading in the Data
 
-Usually, I read the data into an .Rmd file using the code block that looks like the following: 
+Usually, I read the data into an .Rmd file using the code block that looks like the following:
 
 ```{{r}}
 dataset_1 <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/some_date/dataset_1.csv')
@@ -134,7 +127,7 @@ dataset_1 <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/
 
 ### 3. Analyzing and Visualizing the Data
 
-After that, the world (or, in this case, data) is your oyster! I primarily use Tidyverse to create my TidyTuesday data visualizations and models, so I appreciate the following cheat sheets: 
+After that, the world (or, in this case, data) is your oyster! I primarily use Tidyverse to create my TidyTuesday data visualizations and models, so I appreciate the following cheat sheets:
 
 ::: link
 ::: link-header

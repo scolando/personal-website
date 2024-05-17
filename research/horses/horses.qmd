@@ -6,9 +6,9 @@ about:
   template: solana
   links:
     - text: "Summer 2023 Report"
-      href: https://arxiv.org/abs/2310.02444
+      href: https://www.stat.cmu.edu/cmsac/sure/2023/showcase/horse_racing/report.html
     - text: "Summer 2023 Poster"
-      href: https://scolando.github.io/DSethics-website/
+      href: https://www.stat.cmu.edu/cmsac/sure/2023/showcase/horse_racing/poster.pdf
 ---
 
 ![](featured.png)

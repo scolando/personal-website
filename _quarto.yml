@@ -4,9 +4,15 @@ project:
 
 website:
   title: "Sara Colando"
-  favicon: personal-website-hex-sticker.png
+  favicon: "personal-website-hex-sticker.png"
+  site-url: scolando.github.io/personal-website/
+  repo-url: https://github.com/scolando/personal-website
+  page-navigation: true
+  
+  
   navbar:
-    logo: personal-website-hex-sticker.png
+    logo: "personal-website-hex-sticker.png"
+    search: true
     right:
       - href: about.qmd
         text: "About"
@@ -14,16 +20,32 @@ website:
         text: "Research"
       - href: projects.qmd
         text: "TidyTuesdays"
-      - href: blog.qmd
-        text: "Blogs"
+#      - href: blog.qmd
+#        text: "Blogs"
       - href: cv.qmd
         text: "CV"
-        
+    
+  page-footer:
+    left: "Made by Sara Colando,<br>May 2024"
+    right:
+      - icon: github
+        href: https://github.com/scolando/personal-website
+        aria-label: "Quarto GitHub"
+    background: "#f6f5f2"
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      - cosmo
+      - styles.scss
+    backgroundcolor: "#f6f5f2"
+    code-overflow: wrap
+    code-block-bg: "efede9"
+    fontcolor: "#220D07"
+    title-block-banner-color: "#F5F3E0"
+    mainfont: "Lato"
+      
+      
     toc: true
 
 editor: visual

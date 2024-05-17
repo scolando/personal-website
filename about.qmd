@@ -5,8 +5,6 @@ format:
     toc: false
 ---
 
-Welcome to my website!
-
 I am a first-year Ph.D. student in Carnegie Mellon's Statistics and Data Science department. Before that, I attended Pomona College in Claremont, California, where I completed a double major in mathematics and philosophy. At Pomona, I worked primarily with Jo Hardin, conducting research in statistical genomics and data science ethics pedagogy.
 
 Outside of research, I really enjoy mentoring (doing so for Statistical Linear Models, Introduction to Biostatistics, Linear Algebra, Introductory Genetics, and Pomona's 1-2-1 math summer bridge program) and am also a big data visualization nerd and try to spend some time creating a new one each week as part of TidyTuesday (a community activity put on by the *Data Science Learning Community*). In my free time, I also really enjoy running and was part of Pomona-Pitzer's Cross Country and Track and Field teams during my four years at Pomona.
@@ -17,11 +15,11 @@ Another primary interest of mine is philosophy, especially (feminist) philosophy
 
 {{< iconify zondicons:education size=xl >}} Ph.D. in Statistics and Data Science (in progress)
 
-<p style="margin-left: 25px;"> Carnegie Mellon University</p>
+Carnegie Mellon University
 
 {{< iconify zondicons:education size=xl >}} B.A. in Mathematics and Philosophy (May 2024)
 
-<p style="margin-left: 25px;"> Pomona College </p>
+Pomona College
 
 ## Contact
 

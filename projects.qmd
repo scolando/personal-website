@@ -109,9 +109,6 @@ Usually, I read the data into an .Rmd file using the code block that looks like 
 dataset_1 <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/some_date/dataset_1.csv')
 ```
 
-
-However, you can also read in the data via the following methods:
-
 ### 3. Analyzing and Visualizing the Data
 
 After that, the world (or, in this case, data) is your oyster! I primarily use Tidyverse to create my TidyTuesday data visualizations and models, so I appreciate the following cheat sheets: 

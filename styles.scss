@@ -22,19 +22,19 @@ a{
 }
 
 p {
-  font-size: 0.65em; /* 14px/16=0.875em */
+  font-size: 14px; /* 14px/16=0.875em */
 }
 
-h1 {
-  font-size: 0.75em; /* 14px/16=0.875em */
+h1 h1.title {
+  font-size: 20px; /* 14px/16=0.875em */
 }
 
 h2 {
-  font-size: 0.75em; /* 14px/16=0.875em */
+  font-size: 18px; /* 14px/16=0.875em */
 }
 
 h3 {
-  font-size: 0.75em; /* 14px/16=0.875em */
+  font-size: 18px; /* 14px/16=0.875em */
 }
 
 .quarto-about-trestles .about-entity .about-link {
@@ -60,7 +60,7 @@ h3 {
 }
 
 .menu-text {
-  font-size: 0.75em;
+  font-size: 18px;
   color: #220D07;
   
   &:hover {
@@ -69,7 +69,7 @@ h3 {
 }
 
 .navbar-title {
-  font-size: 0.75em;
+  font-size: 20px;
   color: #220D07;
   
 &:hover {

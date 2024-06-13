@@ -44,6 +44,11 @@ from: https://github.com/quarto-dev/quarto-cli/discussions/2538#discussioncommen
   html {
     font-family: 'Public Sans', sans-serif;
   }
+  
+  body {
+    font-family: 'Cambria', serif;
+    
+  }
 
   header {
     margin-block-end: 5em;
@@ -83,7 +88,7 @@ from: https://github.com/quarto-dev/quarto-cli/discussions/2538#discussioncommen
 
   a {
     text-decoration: none;
-    font-weight: 700;
-    color: #36a7e9;
+    font-weight: 500;
+    color:#006666;
   }
 }

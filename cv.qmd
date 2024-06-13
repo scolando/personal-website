@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitae"
-subtitle: "Last updated May 2024"
+subtitle: "Last updated June 2024"
 format:
   html:
     toc: true
@@ -13,12 +13,12 @@ format-links: [pdf]
 ---
 
 ::: {.print-only .contact-block}
-\(206\) 852-5922 | skca2020@mymail.pomona.edu | Seattle, WA
+\(206\) 852-5922 \| skca2020\@mymail.pomona.edu \| Seattle, WA
 :::
 
 ## Education
 
-**Carnegie Mellon University**, Pittsburgh, Pennsylvania [*May 2029*]{.cvdate}<br> Doctor of Philosophy in Statistics and Data Science
+**Carnegie Mellon University**, Pittsburgh, Pennsylvania [*In Progress*]{.cvdate}<br> Doctor of Philosophy in Statistics and Data Science
 
 **Pomona College**, Claremont, California [*May 2024*]{.cvdate}<br> Bachelor of Arts in Mathematics and Philosophy, GPA: 3.99/4.00
 
@@ -28,7 +28,7 @@ format-links: [pdf]
 
 ## Publications
 
-**Colando, S.**, Hardin, J. Philosophy as Integral to a Data Science Ethics Course, Journal of Statistics and Data Science Education, accepted, 2023. [Preprint](https://arxiv.org/abs/2310.02444).
+**Colando, S.**, Hardin, J. Philosophy as Integral to a Data Science Ethics Course, *Journal of Statistics and Data Science Education*, accepted, 2023. [Preprint](https://arxiv.org/abs/2310.02444).
 
 ## Research Experience
 
@@ -70,48 +70,41 @@ Data Science Ethics Independent Project Supervised by Professor Jo Hardin [*May 
 
 ## Mentorship Experience
 
-**Pomona College Department of Mathematics and Statistics**<br>
-Course Mentor and Grader [*Jan 2021 – May 2024*]{.cvdate}
+**Pomona College Department of Mathematics and Statistics**<br> Course Mentor and Grader [*Jan 2021 -- May 2024*]{.cvdate}
 
-- Led 2-hour mentor sessions each week to help students with homework and course material for Statistical Linear Models (Spring 2024) Introduction to Biostatistics (Spring 2023) and Linear Algebra (Fall 2021)
-- Worked with co-mentors and professors to foster inclusivity and collaboration within small and large group environments
-- Graded problem sets each week for 30+ students, with personalized feedback, within the professor’s desired time frame for Statistical Linear Models (Spring 2024), Introduction to Biostatistics (Spring 2023), Calculus I (Spring 2022), and Linear Algebra (Spring and Fall 2021)
+-   Led 2-hour mentor sessions each week to help students with homework and course material for Statistical Linear Models (Spring 2024) Introduction to Biostatistics (Spring 2023) and Linear Algebra (Fall 2021)
+-   Worked with co-mentors and professors to foster inclusivity and collaboration within small and large group environments
+-   Graded problem sets each week for 30+ students, with personalized feedback, within the professor's desired time frame for Statistical Linear Models (Spring 2024), Introduction to Biostatistics (Spring 2023), Calculus I (Spring 2022), and Linear Algebra (Spring and Fall 2021)
 
-1-2-1 Summer Bridge Program Teacher’s Assistant [*June – Sep 2021*]{.cvdate}
+1-2-1 Summer Bridge Program Teacher's Assistant [*June -- Sep 2021*]{.cvdate}
 
-- Led 1.5-hour meetings for three small cohorts, consisting of incoming Pomona College students, twice per week
-- Taught mathematical concepts (e.g., logic, calculus, combinatorics, number theory) to incoming undergraduate students
-- Organized group bonding by preparing icebreakers and virtual games for 40+ students in the cohort
-- Provided individualized feedback on cohort members’ submitted problem sets three times a week
+-   Led 1.5-hour meetings for three small cohorts, consisting of incoming Pomona College students, twice per week
+-   Taught mathematical concepts (e.g., logic, calculus, combinatorics, number theory) to incoming undergraduate students
+-   Organized group bonding by preparing icebreakers and virtual games for 40+ students in the cohort
+-   Provided individualized feedback on cohort members' submitted problem sets three times a week
 
-**Pomona College Center for Speaking, Writing, and the Image**<br>
-Course Writing Partner [*Aug 2023 - Present*]{.cvdate}
+**Pomona College Center for Speaking, Writing, and the Image**<br> Course Writing Partner [*Aug 2023 - Present*]{.cvdate}
 
-- Providing meaningful writing feedback to students from diverse writing backgrounds in one-on-one and small group settings; attached writing partner for the Critical Inquiry Seminar (ID1): I Disagree (Fall 2023)
+-   Providing meaningful writing feedback to students from diverse writing backgrounds in one-on-one and small group settings; attached writing partner for the Critical Inquiry Seminar (ID1): I Disagree (Fall 2023)
 
-**Pomona College Department of Biology**<br>
-Introductory Genetics w/ Lab Course Mentor and Grader [*Aug – Dec 2022*]{.cvdate}
+**Pomona College Department of Biology**<br> Introductory Genetics w/ Lab Course Mentor and Grader [*Aug -- Dec 2022*]{.cvdate}
 
-- Answered student questions within lectures twice a week
-- Co-hosted mentor sessions to help students with problem sets and course concepts
-- Collaborated with the professors to ensure inclusivity, peer collaboration, and student learning were optimized within
-classroom and mentor session environments
-- Graded 30+ problem sets each week and provided individualized feedback to each student
+-   Answered student questions within lectures twice a week
+-   Co-hosted mentor sessions to help students with problem sets and course concepts
+-   Collaborated with the professors to ensure inclusivity, peer collaboration, and student learning were optimized within classroom and mentor session environments
+-   Graded 30+ problem sets each week and provided individualized feedback to each student
 
 ## Leadership and Service
 
-**Pomona College Department of Philosophy**<br>
-Search and Selection Committee Member [*Aug 2023 - Present*]{.cvdate}
+**Pomona College Department of Philosophy**<br> Search and Selection Committee Member [*Aug 2023 - Present*]{.cvdate}
 
-- Invited to be the sole student representative by Pomona’s Philosophy Department
-- Participated in the search and selection process for a new tenure-track philosophy professor
-- Provided input into applicant’s dossiers and sitting in on interviews to provide student feedback on applicants
+-   Invited to be the sole student representative by Pomona's Philosophy Department
+-   Participated in the search and selection process for a new tenure-track philosophy professor
+-   Provided input into applicant's dossiers and sitting in on interviews to provide student feedback on applicants
 
-**Pomona-Pitzer Athletics Department**<br>
-Women’s Cross Country Team Captain [*Aug – Nov 2023*]{.cvdate}
+**Pomona-Pitzer Athletics Department**<br> Women's Cross Country Team Captain [*Aug -- Nov 2023*]{.cvdate}
 
-- Facilitated an inclusive and healthy team dynamic between coaches and teammates through biweekly captain meetings,team socials, and check-ins with teammates
-
+-   Facilitated an inclusive and healthy team dynamic between coaches and teammates through biweekly captain meetings,team socials, and check-ins with teammates
 
 ## Presentations
 
@@ -129,13 +122,15 @@ Women’s Cross Country Team Captain [*Aug – Nov 2023*]{.cvdate}
 -   Blair Nixon Award [*2024*]{.cvdate}
     -   Given to a senior student who exemplifies the high ideals of the College in scholarship, sportsmanship, and organized athletic pursuits.
 -   Bruce Jay Levy Senior Prize [*2024*]{.cvdate}
-    -   Given to a senior in the mathematics department who throughout their time at Pomona has demonstrated a commitment to collaborative learning, fostering an inclusive mathematical community, and to expanding their own academic comfort zone.
+    -   Given to a senior in the Mathematics and Statistics Department who throughout their time at Pomona has demonstrated a commitment to collaborative learning, fostering an inclusive mathematical community, and to expanding their own academic comfort zone.
+-   W.T. Jones Prize in Philosophy [*2024*]{.cvdate}
+    -   In recognition of a senior philosophy major who has shown interest and talent in integrating philosophy with larger humanistic concerns (received for my work in data science ethics and contributions to Pomona's Philosophy Department).   
 -   Phi Beta Kappa, Pomona College [*2024*]{.cvdate}
 -   Sigma Xi, Pomona College [*2024*]{.cvdate}
-- Graduated Magna Cum Laude [*2024*]{.cvdate}
+-   Graduated Magna Cum Laude [*2024*]{.cvdate}
 -   Pomona College Scholar [*2020 - 2024*]{.cvdate}
-    - Awarded each semester to the top 25% of the class 
-- Pomona College Women’s Cross Country and Track and Field Varsity Letter Recipient [*2021-2024*]{.cvdate}
+    -   Awarded each semester to the top 25% of the class
+-   Pomona College Women's Cross Country and Track and Field Varsity Letter Recipient [*2021-2024*]{.cvdate}
 
 ## Computer and Language Skills
 

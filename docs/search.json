@@ -1,110 +1,5 @@
 [
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blogs",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\nDate\n\n\n\n\n\n\n\n\n\nApplying to (Bio)statistics PhD Programs\n\n\nSara Colando\n\n\nJun 1, 2024\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "I am a first-year Ph.D. student in Carnegie Mellon’s Statistics and Data Science department. Before that, I attended Pomona College in Claremont, California, where I completed a double major in mathematics and philosophy. At Pomona, I worked primarily with Jo Hardin, conducting research in statistical genomics and data science ethics pedagogy.\nOutside of research, I really enjoy mentoring (doing so for Statistical Linear Models, Introduction to Biostatistics, Linear Algebra, Introductory Genetics, and Pomona’s 1-2-1 math summer bridge program) and am also a big data visualization nerd and try to spend some time creating a new one each week as part of TidyTuesday (a community activity put on by the Data Science Learning Community). In my free time, I also really enjoy running and was part of Pomona-Pitzer’s Cross Country and Track and Field teams during my four years at Pomona.\nAnother primary interest of mine is philosophy, especially (feminist) philosophy of science, ethics, and epistemology. I hope to stay engaged in philosophy and, with that, continue to understand the ethical dimensions of statistical technologies while completing my Ph.D. at Carnegie Mellon."
-  },
-  {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "About",
-    "section": "Education",
-    "text": "Education\n Ph.D. in Statistics and Data Science (in progress)\nCarnegie Mellon University\n B.A. in Mathematics and Philosophy (May 2024)\nPomona College"
-  },
-  {
-    "objectID": "about.html#contact",
-    "href": "about.html#contact",
-    "title": "About",
-    "section": "Contact",
-    "text": "Contact\n skca2020@mymail.pomona.edu"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "TidyTuesday Creations",
-    "section": "",
-    "text": "TidyTuesday is a weekly community activity put on the the Data Science Learning Community. I try to spend a little time each week creating a data visualization or model with the data posted to the official TidyTuesday GitHub Repository (linked below)."
-  },
-  {
-    "objectID": "projects.html#highlighted-creations",
-    "href": "projects.html#highlighted-creations",
-    "title": "TidyTuesday Creations",
-    "section": "Highlighted Creations",
-    "text": "Highlighted Creations\nHere are some of my favorite data visualizations that I have made from TidyTuesday over the past two years. Each title has a link to my code for creating the visualization.\n05/07/2024: Demographics of the Rolling Stone’s Top 500 Albums of All Time in 2003 vs. 2012 vs. 2020 \n\n\n\n\n\n03/05/2024: The Mr. Trash Wheel Fleet’s Collected Garbage over the Years \n\n\n\n\n\n11/28/2023: Dr. Who Distribution of Episode Rankings Based on the Episode Writer \n\n\n\n\n\n10/24/2023: Difference between the Taylor’s Version and the Old Version of Songs from Fearless and Red \n\n\n\n\n\n03/21/2023: Coding Language Creation over the Years \n\n\n\n\n\n12/20/2022: Seattle Weather in 2021 \n\n\n\n\n\n07/05/2022: Changes in Median Rent Prices and Percent of Apartments by Neighborhood in San Francisco"
-  },
-  {
-    "objectID": "projects.html#helpful-resources",
-    "href": "projects.html#helpful-resources",
-    "title": "TidyTuesday Creations",
-    "section": "Helpful Resources",
-    "text": "Helpful Resources\nIf you are interested in participating in TidyTuesday yourself, here are some resources that I have found helpful for starting:\n\n1. Finding Inspiration\nWhen beginning TidyTuesdays, I find it super helpful to take inspiration from what others have done with the data either this week or in previous weeks. X (i.e., Twitter), Fossodon, and sometimes even Google searches are a great way of gaining inspiration from others!\n\n\n Search “#tidytuesday” on X\n\n\nhttps://github.com/rfordatascience/tidytuesday\n\n\n\n\n Search “#tidytuesday” on Mastodon\n\n\nhttps://fosstodon.org/tags/tidytuesday\n\n\n\n\n2. Loading in the Data\nUsually, I read the data into an .Rmd file using the code block that looks like the following:\n```{r}\ndataset_1 &lt;- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/some_date/dataset_1.csv')\n```\n\n\n3. Analyzing and Visualizing the Data\nAfter that, the world (or, in this case, data) is your oyster! I primarily use Tidyverse to create my TidyTuesday data visualizations and models, so I appreciate the following cheat sheets:\n\n\n stringr Cheat Sheet PDF\n\n\nhttps://rstudio.github.io/cheatsheets/strings.pdf\n\n\n\n\n dplyr Cheat Sheet PDF\n\n\nhttps://rstudio.github.io/cheatsheets/data-transformation.pdf\n\n\n\n\n GGPlot2 Cheat Sheet PDF\n\n\nhttps://rstudio.github.io/cheatsheets/data-visualization.pdf"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "skca2020@mymail.pomona.edu"
-  },
-  {
-    "objectID": "contact.html#email",
-    "href": "contact.html#email",
-    "title": "Contact",
-    "section": "",
-    "text": "skca2020@mymail.pomona.edu"
-  },
-  {
-    "objectID": "research/horses/horses.html",
-    "href": "research/horses/horses.html",
-    "title": "Clustering Race Horse Movement Profiles to Discover Trends in Injured Horses",
-    "section": "",
-    "text": "Between 2009 and 2021, over 7,200 horses died or were euthanized due to racing-related injuries. Using horse profile data and horse tracking data from the NYRA, we hoped to identify horses who under-raced between 2019 and 2021, cluster movement profiles for horses who raced in 2019 New York races, and discover whether certain profiles were more associated with injured horses.\nBy fitting a negative binomial model on horse profile data and performing residual analysis, we discovered that at least 251 horses under-raced between 2019 and 2021. Additionally, clustering horse movement profiles revealed that a horse’s speed profile is most associated with its injury status: specifically, greater variation in speed is more associated with injury.\nDone in through Carnegie Mellon’s Sports Analytics Camp and via an external partnership with Joseph Appelbaum at the New York Thoroughbred Horsemen’s Association."
-  },
-  {
-    "objectID": "research/data-ethics/data-ethics.html",
-    "href": "research/data-ethics/data-ethics.html",
-    "title": "Philosophy as Integral to a Data Science Ethics Course",
-    "section": "",
-    "text": "There is wide agreement that ethical considerations are a valuable aspect of a data science curriculum, and to that end, many data science programs offer courses in data science ethics. There are not always, however, explicit connections between data science ethics and the centuries-old work on ethics within the discipline of philosophy. Here, we present a framework for bringing together key data science practices with ethical topics. The ethical topics were collated from sixteen data science ethics courses with public-facing syllabi and reading lists. We encourage individuals who are teaching data science ethics to engage with the philosophical literature and its connection to current data science practices, which is rife with potentially morally charged decision points.\nFunded by Pomona College’s Evelyn B. Craddock McVicar Memorial Fund (Summer 2023)."
-  },
-  {
-    "objectID": "research/chip-seq/chip-seq.html",
-    "href": "research/chip-seq/chip-seq.html",
-    "title": "Selecting ChIP-Seq Normalization Methods from the Perspective of their Technical Conditions",
-    "section": "",
-    "text": "Within the last two decades, high throughput sequencing has become one of the most popular methods for data generation within genomics, epigenomics, and transcriptomics. A popular method of high throughput sequencing is chromatin immunoprecipitation followed by high throughput sequencing, or ChIP-Seq. ChIP-Seq data provides vital insights into locations on the genome where there are differences in DNA occupancy between experimental states (i.e., differential DNA occupancy). However, since ChIP-Seq data is collected experimentally, it must be normalized to assess which genomic regions have differential DNA occupancy. While normalization is an essential step in identifying genomic regions with differential DNA occupancy, the primary technical conditions underlying ChIPSeq normalization methods have yet to be meticulously examined in the academic literature. In this thesis, we identify three primary technical conditions underlying ChIP-Seq between-sample normalization methods: (1) Symmetric Differential DNA Occupancy, (2) Equal Amount of Total DNA Occupancy, and (3) Equal Amount of Total Background Binding. We then categorize popular ChIP-Seq normalization methods based on the technical conditions they use to normalize between experimental states. A major contribution of this thesis is our ChIP-Seq read count simulation results, which validate our categorization of the normalization methods by their technical conditions. We conclude by underscoring how our findings demonstrate that not all normalization methods are equally effective on all kinds of ChIP-Seq data. Instead, our results emphasize that biologists should use their understanding of the ChIP-Seq experiment at hand to guide their choice of normalization method.\n\nSenior Thesis PDF on selecting between-sample ChIP-Seq normalization methods from the perspective of their technical condition, advised by Jo Hardin.\n\nFunded by Pomona College’s The Class of 1971 Summer Undergraduate Research Fund (Summer 2022) and the Kenneth Cooke Summer Research Fellowship (Summer 2024)."
-  },
-  {
-    "objectID": "research/tumor-mri/tumor-mri.html",
-    "href": "research/tumor-mri/tumor-mri.html",
-    "title": "Implementing a Partially Bayesian Neural Network for Brain Tumor Segmentation",
-    "section": "",
-    "text": "Radiologists segment tumors from MRI scans to determine treatment plans such as surgical resection or radiation therapy, wheras neural networks can streamline the segmentation process to ensure ideal tumor removal and reduce the burden on radiologists. However, these black-box models currently lack explainability, which leads to a lack of trust from different end users like physicians and patients when used to segment brain tumors. Uncertainty Quantification communicates to stakeholders: (a) if and when they should trust model predictions and (b) how fair these predictions are on sample-wide and patient-specific cases. Therefore, Uncertainty Quantification enhances a model’s transparency by exposing a model’s properties to various stakeholders to better understand, improve, and contest the model’s predictions. In this project, we aim to quantify model uncertainty by using a partially bayesian neural network to communicate where the model is uncertain of its prediction of a pixel being classified as “tumor” or “non-tumor.” In particular, we aim to address the following questions:\n\nWhere is this model failing, and how is it failing to properly segment the tumor?\nIn what cases is the model certain but still making mistakes in tumor segmentation?\n\nUltimately, we find that the highest uncertainty is at the boundary regions of the model’s predicted tumor location and the false negative and false positive pixels are highly clustered. Further, we discover that there is generally higher certainty for accurately classified pixels as well as greater certainty for false negatives than false positives pixels. From our findings, we suggest future work in collaboration with clinicians to better understand why model fails in specific brain regions, and why false positive and false negative results tend to cluster. Moreover, we suggest that the model performance and uncertainty levels across should be compared various subsets (e.g., different tumor histologies, tissue source sites, patient sex, vital status, etc.) to investigate whether there are trends in differential model performance across different demographic groups.\n\nSummer 2022 Poster PDF on quantifying uncertainty in a tumor segmentation model.\nSummer 2022 Presentation PDF on quantifying uncertainty in a tumor segmentation model\n\nDone through University of Michigan School of Public Health’s Big Data Summer Institute and via a partnership with Dr. Nikola Banovic and Snehal Prabhudesai in University of Michigan School of Computer Science and Engineering."
-  },
-  {
-    "objectID": "blogs/applying-grad-school.html",
-    "href": "blogs/applying-grad-school.html",
-    "title": "Applying to (Bio)statistics PhD Programs",
-    "section": "",
-    "text": "I applied to primarily (Bio)statistics PhD programs during the 2023-2024 application cycle. Coming from a small liberal arts school, I found any and all resources or tidbits of advice incredibly helpful. That said, I wanted to share my advice as well as some of my application materials in this blog post in case others find it helpful."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Sara Colando",
-    "section": "",
-    "text": "Hi, and welcome to my website!\nI am a first-year Ph.D. student in the Department of Statistics and Data Science at Carnegie Mellon University. I graduated magna cum laude from Pomona College in Spring 2024 with a double major in Mathematics and Philosophy.\nSince Summer 2022, I have been heavily involved in biostatistics research in genomics – investigating technical conditions that underlie ChIP-Seq normalization methods with Jo Hardin at Pomona. I am also passionate about work at the intersection of statistics, data science, and philosophy, particularly related to data science ethics. Find out more about my interests and past experiences by browsing the site."
-  },
-  {
     "objectID": "cv.html",
     "href": "cv.html",
     "title": "Curriculum Vitae",
@@ -116,7 +11,7 @@
     "href": "cv.html#education",
     "title": "Curriculum Vitae",
     "section": "Education",
-    "text": "Education\nCarnegie Mellon University, Pittsburgh, Pennsylvania May 2029 Doctor of Philosophy in Statistics and Data Science\nPomona College, Claremont, California May 2024 Bachelor of Arts in Mathematics and Philosophy, GPA: 3.99/4.00\n\nMath Coursework: Methods in Biostatistics, Statistical Linear Models, Statistical Theory, Probability, Mathematical Analysis I, Methods in Modern Modeling, Data Analysis for the Life Sciences, Differential Equations and Modeling, Combinatorics, Vector Calculus, Linear Algebra\nPhilosophy Coursework: Advanced Philosophy Seminar: The Nature of Bias, Epistemology, Philosophy of Science, Well-being and Autonomy, Philosophy of Mind, Logic, Social Philosophy, Introduction to Ethics"
+    "text": "Education\nCarnegie Mellon University, Pittsburgh, Pennsylvania In Progress Doctor of Philosophy in Statistics and Data Science\nPomona College, Claremont, California May 2024 Bachelor of Arts in Mathematics and Philosophy, GPA: 3.99/4.00\n\nMath Coursework: Methods in Biostatistics, Statistical Linear Models, Statistical Theory, Probability, Mathematical Analysis I, Methods in Modern Modeling, Data Analysis for the Life Sciences, Differential Equations and Modeling, Combinatorics, Vector Calculus, Linear Algebra\nPhilosophy Coursework: Advanced Philosophy Seminar: The Nature of Bias, Epistemology, Philosophy of Science, Well-being and Autonomy, Philosophy of Mind, Logic, Social Philosophy, Introduction to Ethics"
   },
   {
     "objectID": "cv.html#publications",
@@ -158,7 +53,7 @@
     "href": "cv.html#honors-and-awards",
     "title": "Curriculum Vitae",
     "section": "Honors and Awards",
-    "text": "Honors and Awards\n\nBlair Nixon Award 2024\n\nGiven to a senior student who exemplifies the high ideals of the College in scholarship, sportsmanship, and organized athletic pursuits.\n\nBruce Jay Levy Senior Prize 2024\n\nGiven to a senior in the mathematics department who throughout their time at Pomona has demonstrated a commitment to collaborative learning, fostering an inclusive mathematical community, and to expanding their own academic comfort zone.\n\nPhi Beta Kappa, Pomona College 2024\nSigma Xi, Pomona College 2024\nGraduated Magna Cum Laude 2024\nPomona College Scholar 2020 - 2024\n\nAwarded each semester to the top 25% of the class\n\nPomona College Women’s Cross Country and Track and Field Varsity Letter Recipient 2021-2024"
+    "text": "Honors and Awards\n\nBlair Nixon Award 2024\n\nGiven to a senior student who exemplifies the high ideals of the College in scholarship, sportsmanship, and organized athletic pursuits.\n\nBruce Jay Levy Senior Prize 2024\n\nGiven to a senior in the Mathematics and Statistics Department who throughout their time at Pomona has demonstrated a commitment to collaborative learning, fostering an inclusive mathematical community, and to expanding their own academic comfort zone.\n\nW.T. Jones Prize in Philosophy 2024\n\nIn recognition of a senior philosophy major who has shown interest and talent in integrating philosophy with larger humanistic concerns (received for my work in data science ethics and contributions to Pomona’s Philosophy Department).\n\n\nPhi Beta Kappa, Pomona College 2024\nSigma Xi, Pomona College 2024\nGraduated Magna Cum Laude 2024\nPomona College Scholar 2020 - 2024\n\nAwarded each semester to the top 25% of the class\n\nPomona College Women’s Cross Country and Track and Field Varsity Letter Recipient 2021-2024"
   },
   {
     "objectID": "cv.html#computer-and-language-skills",
@@ -166,5 +61,12 @@
     "title": "Curriculum Vitae",
     "section": "Computer and Language Skills",
     "text": "Computer and Language Skills\n\nComputer – Programming languages including R, Python, Unix, and SQL\nLanguage – Spanish (conversational proficiency)"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blogs",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\nDate\n\n\n\n\n\n\n\n\n\nApplying to (Bio)statistics PhD Programs\n\n\nSara Colando\n\n\nJun 1, 2024\n\n\n\n\n\nNo matching items"
   }
 ]

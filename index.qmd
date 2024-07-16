@@ -13,7 +13,7 @@ about:
       href: https://www.linkedin.com/in/sara-colando/
     - icon: envelope
       text: "Contact"
-      href: contact.qmd
+      href: mailto::scolando@andrew.cmu.edu
 theme: styles.scss
 ---
 

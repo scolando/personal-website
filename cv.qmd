@@ -13,7 +13,7 @@ format-links: [pdf]
 ---
 
 ::: {.print-only .contact-block}
-\(206\) 852-5922 \| skca2020\@mymail.pomona.edu \| Seattle, WA
+\(206\) 852-5922 \| scolando\@andrew.cmu.edu \| Seattle, WA
 :::
 
 ## Education

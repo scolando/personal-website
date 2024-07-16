@@ -75,5 +75,33 @@
     "title": "Curriculum Vitae",
     "section": "Computer and Language Skills",
     "text": "Computer and Language Skills\n\nComputer – Programming languages including R, Python, Unix, and SQL\nLanguage – Spanish (conversational proficiency)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sara Colando",
+    "section": "",
+    "text": "Hi, and welcome to my website!\nI am a first-year Ph.D. student in the Department of Statistics and Data Science at Carnegie Mellon University. I graduated magna cum laude from Pomona College in Spring 2024 with a double major in Mathematics and Philosophy.\nSince Summer 2022, I have been heavily involved in biostatistics research in genomics – investigating technical conditions that underlie ChIP-Seq normalization methods with Jo Hardin at Pomona. I am also passionate about work at the intersection of statistics, data science, and philosophy, particularly related to data science ethics. Find out more about my interests and past experiences by browsing the site."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "TidyTuesday Creations",
+    "section": "",
+    "text": "TidyTuesday is a weekly community activity put on the the Data Science Learning Community. I try to spend a little time each week creating a data visualization or model with the data posted to the official TidyTuesday GitHub Repository (linked below)."
+  },
+  {
+    "objectID": "projects.html#highlighted-creations",
+    "href": "projects.html#highlighted-creations",
+    "title": "TidyTuesday Creations",
+    "section": "Highlighted Creations",
+    "text": "Highlighted Creations\nHere are some of my favorite data visualizations that I have made from TidyTuesday over the past two years. Each title has a link to my code for creating the visualization.\n05/07/2024: Demographics of the Rolling Stone’s Top 500 Albums of All Time in 2003 vs. 2012 vs. 2020 \n\n\n\n\n\n03/05/2024: The Mr. Trash Wheel Fleet’s Collected Garbage over the Years \n\n\n\n\n\n11/28/2023: Dr. Who Distribution of Episode Rankings Based on the Episode Writer \n\n\n\n\n\n10/24/2023: Difference between the Taylor’s Version and the Old Version of Songs from Fearless and Red \n\n\n\n\n\n03/21/2023: Coding Language Creation over the Years \n\n\n\n\n\n12/20/2022: Seattle Weather in 2021 \n\n\n\n\n\n07/05/2022: Changes in Median Rent Prices and Percent of Apartments by Neighborhood in San Francisco"
+  },
+  {
+    "objectID": "projects.html#helpful-resources",
+    "href": "projects.html#helpful-resources",
+    "title": "TidyTuesday Creations",
+    "section": "Helpful Resources",
+    "text": "Helpful Resources\nIf you are interested in participating in TidyTuesday yourself, here are some resources that I have found helpful for starting:\n\n1. Finding Inspiration\nWhen beginning TidyTuesdays, I find it super helpful to take inspiration from what others have done with the data either this week or in previous weeks. X (i.e., Twitter), Fossodon, and sometimes even Google searches are a great way of gaining inspiration from others!\n\n\n Search “#tidytuesday” on X\n\n\nhttps://github.com/rfordatascience/tidytuesday\n\n\n\n\n Search “#tidytuesday” on Mastodon\n\n\nhttps://fosstodon.org/tags/tidytuesday\n\n\n\n\n2. Loading in the Data\nUsually, I read the data into an .Rmd file using the code block that looks like the following:\n```{r}\ndataset_1 &lt;- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/some_date/dataset_1.csv')\n```\n\n\n3. Analyzing and Visualizing the Data\nAfter that, the world (or, in this case, data) is your oyster! I primarily use Tidyverse to create my TidyTuesday data visualizations and models, so I appreciate the following cheat sheets:\n\n\n stringr Cheat Sheet PDF\n\n\nhttps://rstudio.github.io/cheatsheets/strings.pdf\n\n\n\n\n dplyr Cheat Sheet PDF\n\n\nhttps://rstudio.github.io/cheatsheets/data-transformation.pdf\n\n\n\n\n GGPlot2 Cheat Sheet PDF\n\n\nhttps://rstudio.github.io/cheatsheets/data-visualization.pdf"
   }
 ]

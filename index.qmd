@@ -2,7 +2,7 @@
 title: "Sara Colando"
 about:
   template: trestles
-  image: "images/Headshot3.png"
+  image: "images/Headshot4.png"
   image-shape: rounded
   links:
     - icon: github

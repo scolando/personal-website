@@ -22,6 +22,8 @@ website:
         text: "TidyTuesdays"
 #      - href: blog.qmd
 #        text: "Blogs"
+      - href: extras.qmd
+        text: "Extras"
       - href: cv.qmd
         text: "CV"
     

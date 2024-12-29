@@ -15,7 +15,7 @@ css: cv.css
 
 -   **Coursework**: Regression Analysis, Probability and Mathematical Statistics, Statistical Computing
 
-**BA in Mathematics and Philosophy**, [*May 2024*]{.cvdate}<br>Pomona College, Claremont, CA
+**BA in Mathematics and Philosophy** [*May 2024*]{.cvdate}<br>Pomona College, Claremont, CA
 
 -   Graduated *magna cum laude* and with departmental honors (GPA: 3.99/4.00)
 
@@ -40,7 +40,7 @@ css: cv.css
 -   Created a website to effectively communicate data science ethics concepts and relevant background information to a broad community of decision-makers
 -   Aided in Pomona College's development of an ethics course for the recently approved data science minor
 
-**Carnegie Mellon University Department of Statistics and Data Science**<br>[Research Assistant to Dr. Ron Yurko](https://www.stat.cmu.edu/cmsac/sure/2023/showcase/horse_racing/report.html) [*May -- Aug 2023*]{.cvdate}
+**Carnegie Mellon University Department of Statistics and Data Science**<br>[Research Assistant to Dr. Ron Yurko](https://scolando.github.io/personal-website/research/horses/horses.html) [*May -- Aug 2023*]{.cvdate}
 
 -   Performing mixture-model clustering analysis to discover trends in movement patterns for injured racehorses
 -   Identifying horses who under-raced through residual analysis of a created expected race count model

@@ -1,121 +1,112 @@
 ---
 title: "Curriculum Vitae"
-subtitle: "Last updated June 2024"
+subtitle: "Last updated January 2025"
 format:
   html:
     toc: true
-    toc-title: "CV Section" 
-  pdf:
-    author: Sara Colando
-    pdf-engine: weasyprint
+    toc-title: "CV Section"
 css: cv.css
-format-links: [pdf]
 ---
-
-::: {.print-only .contact-block}
-\(206\) 852-5922 \| scolando\@andrew.cmu.edu \| Seattle, WA
-:::
+{{< iconify teenyicons:pdf-outline size=l >}} <a href="Colando-Sara-CV.pdf" target = "_blank"> <strong>Link to PDF Version of CV</strong></a>
 
 ## Education
 
-**Carnegie Mellon University**, Pittsburgh, Pennsylvania [*In Progress*]{.cvdate}<br> Doctor of Philosophy in Statistics and Data Science
+**PhD in Statistics** [*2024 -- 2029 (Expected)*]{.cvdate}<br>Carnegie Mellon University, Pittsburgh, PA
 
-**Pomona College**, Claremont, California [*May 2024*]{.cvdate}<br> Bachelor of Arts in Mathematics and Philosophy, GPA: 3.99/4.00
+-   **Coursework**: Regression Analysis, Probability and Mathematical Statistics, Statistical Computing
 
--   *Math Coursework*: Methods in Biostatistics, Statistical Linear Models, Statistical Theory, Probability, Mathematical Analysis I, Methods in Modern Modeling, Data Analysis for the Life Sciences, Differential Equations and Modeling, Combinatorics, Vector Calculus, Linear Algebra
+**BA in Mathematics and Philosophy**, [*May 2024*]{.cvdate}<br>Pomona College, Claremont, CA
 
--   *Philosophy Coursework*: Advanced Philosophy Seminar: The Nature of Bias, Epistemology, Philosophy of Science, Well-being and Autonomy, Philosophy of Mind, Logic, Social Philosophy, Introduction to Ethics
+-   Graduated *magna cum laude* and with departmental honors (GPA: 3.99/4.00)
 
-## Publications
+-   <a href="./research/chip-seq/Colando_MATH191_Thesis_Final_Draft.pdf" target = "_blank">Undergraduate Thesis</a>: Selecting ChIP-Seq Normalization Methods from the Perspective of their Technical Conditions, advised by Dr. Johanna Hardin (received excellent thesis designation by department)
 
-**Colando, S.**, Hardin, J. Philosophy as Integral to a Data Science Ethics Course, *Journal of Statistics and Data Science Education*, accepted, 2023. [Preprint](https://arxiv.org/abs/2310.02444).
+## Publications and In-Progess Papers
+
+1. **Colando, S.**, & Hardin, J. Selecting ChIP-Seq Normalization Methods from the Perspective of their Technical Conditions. In Progess.
+
+2. **Colando, S.**, & Hardin, J. (2024). Philosophy within Data Science Ethics Courses. *Journal of Statistics and Data Science Education*, *32*(4), 361–373. <https://doi.org/10.1080/26939169.2024.2394542>
 
 ## Research Experience
 
-**Pomona College Department of Mathematics and Statistics**<br> Biostatistics Research Assistant to Professor Jo Hardin [*May 2022 - Present*]{.cvdate}
+**Pomona College Department of Mathematics and Statistics**<br>[Research Assistant to Dr. Johanna Hardin](https://scolando.github.io/personal-website/research/chip-seq/chip-seq.html) [*May 2022 -- Present*]{.cvdate}
 
--   Analyzing ChIP-Seq normalization techniques by their biological and technical assumptions to help improve differential-binding analysis practices
--   Creating reproducible ChIP-Seq read count simulations using R, Unix, and High-Performance Computing to test how violating normalization method assumptions affects the false discovery rate and power of identifying true differentially bound regions
--   [Summer 2022 Report](https://drive.google.com/file/d/15KRrznZ31XmjzRzMbu5GsEW73wz8bU2j/view?usp=sharing)
+-   Analyzing between-sample normalization techniques by their technical assumptions to help improve differential binding analysis practices for ChIP-Seq and similarly structured types of high-throughput data
+-   Creating reproducible ChIP-Seq read count simulations using R, Bash, and High-Performance Computing to examine how violating normalization method assumptions affects the false discovery rate and power of identifying regions with true differential DNA occupancy.
 
-Data Science Ethics Independent Project Supervised by Professor Jo Hardin [*May 2023 - Oct 2023*]{.cvdate}
+[Data Science Ethics Independent Project](https://scolando.github.io/personal-website/research/data-ethics/data-ethics.html) (Supervisor: Dr. Johanna Hardin) [*May -- Oct 2023*]{.cvdate}
 
 -   Synthesized resources and pedagogies of existing Data Science Ethics undergraduate courses to connect key ethical concepts to data science practices
--   Created a website to effectively communicate data science ethics concepts and relevant background information to a broad community of decision-makers ([Created Website](https://scolando.github.io/DSethics-summer2023))
+-   Created a website to effectively communicate data science ethics concepts and relevant background information to a broad community of decision-makers
 -   Aided in Pomona College's development of an ethics course for the recently approved data science minor
 
-**Carnegie Mellon University Department of Statistics and Data Science**<br> Research Assistant to Professor Ron Yurko [*May 2023 - Nov 2023*]{.cvdate}
+**Carnegie Mellon University Department of Statistics and Data Science**<br>[Research Assistant to Dr. Ron Yurko](https://www.stat.cmu.edu/cmsac/sure/2023/showcase/horse_racing/report.html) [*May -- Aug 2023*]{.cvdate}
 
 -   Performing mixture-model clustering analysis to discover trends in movement patterns for injured racehorses
 -   Identifying horses who under-raced through residual analysis of a created expected race count model
 -   Engaged in 8 weeks of lectures about popular statistical analysis techniques, data engineering, and novel data science methodologies employed in sports analytics
--   [Summer 2023 Report](https://www.stat.cmu.edu/cmsac/sure/2023/showcase/horse_racing/report.html)
 
-**Self-Directed Project**<br> Data Analysis and Visualization Creator [*Jan 2021 - Present*]{.cvdate}
+**Self-Directed Project**<br>[Data Analysis and Visualization Creator](https://scolando.github.io/personal-website/projects.html)[*Jan 2021 -- May 2024*]{.cvdate}
 
 -   Conducting exploratory data analysis in R to improve data visualization and communication skills every week using data provided by the "R for Data Science" Online Learning Community
 -   Helping students new to R become more familiar with the programming language and troubleshoot errors in 2-hour Pomona TidyTuesday workshop offered each week
--   [TidyTuesday Portfolio](https://scolando.github.io/TidyTuesdayCreations/)
 
 **University of California, San Diego Halıcıoğlu Data Science Institute**<br> Intelligence, Data, Ethics, and Society (IDEAS) Summer Institute Participant [*Aug 2023*]{.cvdate}
 
 -   Participated in workshops taught by experts in domains like data science, AI, philosophy, and law to improve critical and interdisciplinary thinking on data science and AI ethics topics
 -   Collaborated with three other students on a two-week research project, examining practical methods of implementing responsible data science and AI practices in a California wildfire resource allocation algorithm
 
-**University of Michigan School of Public Health** <br> Big Data Summer Institute Research Assistant to Dr. Nikola Banovic [*June -- Aug 2022*]{.cvdate}
+**University of Michigan School of Public Health**<br>[Big Data Summer Institute Research Assistant to Dr. Nikola Banovic](https://scolando.github.io/personal-website/research/tumor-mri/tumor-mri.html) [*June -- Aug 2022*]{.cvdate}
 
 -   Collaborated with three other students to implement a partially Bayesian neural network to quantify and communicate prediction uncertainty in a supervised brain tumor segmentation model via Python's PyTorch and TensorFlow packages
 -   Participated in 6 weeks of lectures about ethical data collection practice in healthcare, probability and statistical theory, and the ethical implications of using statistics and computer science methods in healthcare settings
--   [Summer 2022 Research Poster](https://drive.google.com/file/d/1X7g5ZWLm4iqvcHMpKIKo0ThX0rJ9_Gdj/view?usp=sharing)
 
-## Mentorship Experience
+## Teaching Experience
+
+**Carnegie Mellon Department of Statistics and Data Science**<br> Graduate Teaching Assistant [*Sep 2024 -- Present*]{.cvdate}
+
+-   36-226: Introduction to Statistical Inference (Spring 2025)
+-   36-600: Overview of Statistical Learning and Modeling (Fall 2024)
 
 **Pomona College Department of Mathematics and Statistics**<br> Course Mentor and Grader [*Jan 2021 -- May 2024*]{.cvdate}
 
--   Led 2-hour mentor sessions each week to help students with homework and course material for Statistical Linear Models (Spring 2024) Introduction to Biostatistics (Spring 2023) and Linear Algebra (Fall 2021)
--   Worked with co-mentors and professors to foster inclusivity and collaboration within small and large group environments
--   Graded problem sets each week for 30+ students, with personalized feedback, within the professor's desired time frame for Statistical Linear Models (Spring 2024), Introduction to Biostatistics (Spring 2023), Calculus I (Spring 2022), and Linear Algebra (Spring and Fall 2021)
+-  MATH158: Statistical Linear Models (Spring 2024)
+-  MATH058B: Introduction to Biostatistics (Spring 2023)
+-  MATH060: Linear Algebra (Fall 2021)
+-  MATH030: Calculus I, Grader Only (Spring 2021)
 
 1-2-1 Summer Bridge Program Teacher's Assistant [*June -- Sep 2021*]{.cvdate}
 
--   Led 1.5-hour meetings for three small cohorts, consisting of incoming Pomona College students, twice per week
--   Taught mathematical concepts (e.g., logic, calculus, combinatorics, number theory) to incoming undergraduate students
--   Organized group bonding by preparing icebreakers and virtual games for 40+ students in the cohort
--   Provided individualized feedback on cohort members' submitted problem sets three times a week
+-   Led 1.5-hour meetings, twice per week, for three small cohorts of incoming Pomona College students
+-   Organized group bonding by preparing icebreakers and virtual games for 40+ students in the program
+-   Mathematical concepts taught: logic, statistics, calculus I and II, combinatorics, and number theory
 
-**Pomona College Center for Speaking, Writing, and the Image**<br> Course Writing Partner [*Aug 2023 - Present*]{.cvdate}
+**Pomona College Center for Speaking, Writing, and the Image**<br> Course Writing Partner [*Aug 2023 -- Present*]{.cvdate}
 
--   Providing meaningful writing feedback to students from diverse writing backgrounds in one-on-one and small group settings; attached writing partner for the Critical Inquiry Seminar (ID1): I Disagree (Fall 2023)
+- First-year Interdisciplinary Seminar: I Disagree (Fall 2023)
 
-**Pomona College Department of Biology**<br> Introductory Genetics w/ Lab Course Mentor and Grader [*Aug -- Dec 2022*]{.cvdate}
+**Pomona College Department of Biology**<br>Course Mentor and Grader [*Aug -- Dec 2022*]{.cvdate}
 
--   Answered student questions within lectures twice a week
--   Co-hosted mentor sessions to help students with problem sets and course concepts
--   Collaborated with the professors to ensure inclusivity, peer collaboration, and student learning were optimized within classroom and mentor session environments
--   Graded 30+ problem sets each week and provided individualized feedback to each student
+-  Introductory Genetics with Lab (Fall 2022)
+
+## Presentations
+- **Colando, S.**, & Hardin, J. "[Philosophy within Data Science Ethics Courses](https://causeweb.org/cause/webinar/jsdse/2024-10)", CAUSE Webinar, October 2024
+-   **Colando, S.**, Pipping, J., Wilson K. "Clustering Race Horse Movement Profiles to Discover Trends in Injured Horses", Carnegie Mellon Sports Analytics Conference 2023, November 2023
+-   **Colando, S.** "Analyzing Data Science Ethics Pedagogies", Claremont Center for Mathematical Sciences Poster Session, September 2023
+-   **Colando, S.** "Analyzing Data Science Ethics Pedagogies", Intensive Summer Experience Symposium, September 2023
+-   **Colando, S.**, Pipping, J., Wilson K. "Clustering Race Horse Movement Profiles to Discover Trends in Injured Horses", Summer Undergraduate Research Experience (SURE) 2023 Project Showcase, July 2023
+-   **Colando, S.** Panelist for "Pomona Funded Summer Experiences Informational Session", Family Weekend, October 2022
+-   **Colando, S.** "Analyzing ChIP-Seq Normalization Techniques through the Lens of their Biological Assumptions", Intensive Summer Experience Symposium, September 2022
+-   **Colando, S.** "Analyzing ChIP-Seq Normalization Techniques through the Lens of their Biological Assumptions", Claremont Center for Mathematical Sciences Poster Session, September 2022
+-   Chu, C., **Colando, S.**, Nandi, D., Serrano, X. "Quantifying Uncertainty in a Tumor Segmentation Model", A Symposium on Big Data, Human Health, and Statistics. July 2022
 
 ## Leadership and Service
 
-**Pomona College Department of Philosophy**<br> Search and Selection Committee Member [*Aug 2023 - Present*]{.cvdate}
+**Carnegie Mellon Department of Statistics and Data Science**<br> <a href="https://www.stat.cmu.edu/teachstat/" target = "_blank">TeachStat Working Group</a>, Mentorship Committee, Mentor for Undergraduates [*Aug 2024 -- Present*]{.cvdate}
 
--   Invited to be the sole student representative by Pomona's Philosophy Department
--   Participated in the search and selection process for a new tenure-track philosophy professor
--   Provided input into applicant's dossiers and sitting in on interviews to provide student feedback on applicants
+**Pomona College Department of Philosophy**<br> Search and Selection Committee Member [*Aug 2023 -- Mar 2024*]{.cvdate}
 
-**Pomona-Pitzer Athletics Department**<br> Women's Cross Country Team Captain [*Aug -- Nov 2023*]{.cvdate}
-
--   Facilitated an inclusive and healthy team dynamic between coaches and teammates through biweekly captain meetings,team socials, and check-ins with teammates
-
-## Presentations
-
--   **Colando, S.**, Pipping, J., Wilson K. Clustering Race Horse Movement Profiles to Discover Trends in Injured Horses, Carnegie Mellon Sports Analytics Conference 2023, November 2023
--   **Colando, S.** Analyzing Data Science Ethics Pedagogies, Claremont Center for Mathematical Sciences Poster Session, September 2023
--   **Colando, S.** Analyzing Data Science Ethics Pedagogies, Intensive Summer Experience Symposium, September 2023
--   **Colando, S.**, Pipping, J., Wilson K. Clustering Race Horse Movement Profiles to Discover Trends in Injured Horses, Summer Undergraduate Research Experience (SURE) 2023 Project Showcase, July 2023
--   **Colando, S.** Panelist for Pomona Funded Summer Experiences Informational Session, Family Weekend, October 2022.
--   **Colando, S.** Analyzing Chromatin Immunoprecipitation Normalization Techniques through the Lens of their Biological Assumptions, Intensive Summer Experience Symposium, September 2022
--   **Colando, S.** Analyzing Chromatin Immunoprecipitation Normalization Techniques through the Lens of their Biological Assumptions, Claremont Center for Mathematical Sciences Poster Session, September 2022
--   Chu, C., **Colando, S.**, Nandi, D., Serrano, X. Quantifying Uncertainty in a Tumor Segmentation Model. A Symposium on Big Data, Human Health, and Statistics. July 2022
+**Pomona-Pitzer Athletics**<br> Varsity Women's Cross Country Team Captain [*Aug -- Nov 2023*]{.cvdate}
 
 ## Honors and Awards
 
@@ -124,16 +115,9 @@ Data Science Ethics Independent Project Supervised by Professor Jo Hardin [*May 
 -   Bruce Jay Levy Senior Prize [*2024*]{.cvdate}
     -   Given to a senior in the Mathematics and Statistics Department who throughout their time at Pomona has demonstrated a commitment to collaborative learning, fostering an inclusive mathematical community, and to expanding their own academic comfort zone.
 -   W.T. Jones Prize in Philosophy [*2024*]{.cvdate}
-    -   In recognition of a senior philosophy major who has shown interest and talent in integrating philosophy with larger humanistic concerns (received for my work in data science ethics and contributions to Pomona's Philosophy Department).   
+    -   In recognition of a senior philosophy major who has shown interest and talent in integrating philosophy with larger humanistic concerns (received for my work in data science ethics and contributions to Pomona's Philosophy Department).
 -   Phi Beta Kappa, Pomona College [*2024*]{.cvdate}
 -   Sigma Xi, Pomona College [*2024*]{.cvdate}
--   Graduated Magna Cum Laude [*2024*]{.cvdate}
--   Distinction in Senior Exercises (Math and Philososphy) [*2024*]{.cvdate}
--   Pomona College Scholar [*2020 - 2024*]{.cvdate}
+-   Pomona College Scholar [*2020 -- 2024*]{.cvdate}
     -   Awarded each semester to the top 25% of the class
--   Pomona College Women's Cross Country and Track and Field Varsity Letter Recipient [*2021-2024*]{.cvdate}
-
-## Computer and Language Skills
-
--   *Computer* -- Programming languages including R, Python, Unix, and SQL
--   *Language* -- Spanish (conversational proficiency)
+-   Pomona College Women's Cross Country and Track and Field Varsity Letter Recipient [*2021 -- 2024*]{.cvdate}

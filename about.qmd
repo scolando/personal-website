@@ -7,7 +7,7 @@ format:
 
 I am a first-year Ph.D. student in Carnegie Mellon's Statistics and Data Science department. Before that, I attended Pomona College in Claremont, California, where I completed a double major in mathematics and philosophy. At Pomona, I worked primarily with Jo Hardin, conducting research in statistical genomics and data science ethics pedagogy.
 
-Outside of research, I really enjoy mentoring (doing so for Statistical Linear Models, Introduction to Biostatistics, Linear Algebra, Introductory Genetics, and Pomona's 1-2-1 math summer bridge program) and am also a big data visualization nerd and try to spend some time creating a new one each week as part of TidyTuesday (a community activity put on by the *Data Science Learning Community*). In my free time, I also really enjoy running and was part of Pomona-Pitzer's Cross Country and Track and Field teams during my four years at Pomona.
+Outside of research, I really enjoy mentoring (doing so for Statistical Linear Models, Introduction to Biostatistics, Linear Algebra, Introductory Genetics, and Pomona's 1-2-1 math summer bridge program) and am also a big data visualization nerd and try to spend some time creating a new one each week as part of TidyTuesday (a community activity put on by the *Data Science Learning Community*). In my free time, I also like to run and was part of Pomona-Pitzer's Cross Country and Track and Field teams during my four years at Pomona.
 
 Another primary interest of mine is philosophy, especially (feminist) philosophy of science, ethics, and epistemology. I hope to stay engaged in philosophy and, with that, continue to understand the ethical dimensions of statistical technologies while completing my Ph.D. at Carnegie Mellon.
 
@@ -23,4 +23,4 @@ Pomona College
 
 ## Contact
 
-{{< iconify material-symbols:mail-sharp size=xl >}} [skca2020\@mymail.pomona.edu](mailto:skca2020@mymail.pomona.edu)
+{{< iconify material-symbols:mail-sharp size=xl >}} [scolando\@andrew.cmu.edu](mailto:scolando@andrew.cmu.edu)

@@ -20,10 +20,8 @@ website:
         text: "Research"
       - href: projects.qmd
         text: "TidyTuesdays"
-#      - href: blog.qmd
-#        text: "Blogs"
-      - href: extras.qmd
-        text: "Extras"
+      - href: blog.qmd
+        text: "Blogs"
       - href: cv.qmd
         text: "CV"
     

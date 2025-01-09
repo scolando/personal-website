@@ -6,7 +6,7 @@ about:
   template: solana
   links:
     - text: "ArXiv Pre-Print"
-      href: https://github.com/scolando/ChIP-Seq-norm
+      href: https://arxiv.org/abs/2501.02028
     - icon: github
       text: "Github Repo"
       href: https://github.com/scolando/ChIP-Seq-norm

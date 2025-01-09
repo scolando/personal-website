@@ -11,7 +11,7 @@ TidyTuesday is a weekly community activity put on the the *Data Science Learning
 
 ------------------------------------------------------------------------
 
-::: link
+::::: link
 ::: link-header
 #### {{< iconify octicon link-16 >}} My TidyTuesday Creations
 :::
@@ -19,9 +19,9 @@ TidyTuesday is a weekly community activity put on the the *Data Science Learning
 ::: link-container
 <a href = "https://scolando.github.io/TidyTuesdayCreations/" target = "_blank"><https://scolando.github.io/TidyTuesdayCreations/></a>
 :::
-:::
+:::::
 
-::: link
+::::: link
 ::: link-header
 #### {{< iconify devicon github >}} My Source Code
 :::
@@ -29,9 +29,9 @@ TidyTuesday is a weekly community activity put on the the *Data Science Learning
 ::: link-container
 <a href = "https://github.com/scolando/TidyTuesdayCreations" target = "_blank">https://github.com/scolando/TidyTuesdayCreations</a>
 :::
-:::
+:::::
 
-::: link
+::::: link
 ::: link-header
 #### {{< iconify devicon github >}} Official TidyTuesday Repo
 :::
@@ -39,7 +39,7 @@ TidyTuesday is a weekly community activity put on the the *Data Science Learning
 ::: link-container
 <a href = "https://github.com/rfordatascience/tidytuesday" target = "_blank">https://github.com/rfordatascience/tidytuesday</a>
 :::
-:::
+:::::
 
 ## Highlighted Creations
 
@@ -81,17 +81,17 @@ If you are interested in participating in TidyTuesday yourself, here are some re
 
 When beginning TidyTuesdays, I find it super helpful to take inspiration from what others have done with the data either this week or in previous weeks. X (i.e., Twitter), Fossodon, and sometimes even Google searches are a great way of gaining inspiration from others!
 
-::: link
+::::: link
 ::: link-header
-#### {{< iconify simple-icons:x >}} Search "#tidytuesday" on X
+#### {{< iconify ri:bluesky-fill >}} Search "#tidytuesday" on BlueSky
 :::
 
 ::: link-container
-<a href = "https://github.com/rfordatascience/tidytuesday" target = "_blank">https://github.com/rfordatascience/tidytuesday</a>
+<a href = "https://bsky.app/hashtag/TidyTuesday" target = "_blank"><https://bsky.app/hashtag/TidyTuesday></a>
 :::
-:::
+:::::
 
-::: link
+::::: link
 ::: link-header
 #### {{< iconify simple-icons:mastodon >}} Search "#tidytuesday" on Mastodon
 :::
@@ -99,7 +99,7 @@ When beginning TidyTuesdays, I find it super helpful to take inspiration from wh
 ::: link-container
 <a href = "https://fosstodon.org/tags/tidytuesday" target = "_blank">https://fosstodon.org/tags/tidytuesday</a>
 :::
-:::
+:::::
 
 ### 2. Loading in the Data
 
@@ -113,7 +113,7 @@ dataset_1 <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/
 
 After that, the world (or, in this case, data) is your oyster! I primarily use Tidyverse to create my TidyTuesday data visualizations and models, so I appreciate the following cheat sheets:
 
-::: link
+::::: link
 ::: link-header
 #### {{< iconify emojione-monotone:violin >}} stringr Cheat Sheet PDF
 :::
@@ -121,9 +121,9 @@ After that, the world (or, in this case, data) is your oyster! I primarily use T
 ::: link-container
 <a href = "https://rstudio.github.io/cheatsheets/strings.pdf" target = "_blank">https://rstudio.github.io/cheatsheets/strings.pdf</a>
 :::
-:::
+:::::
 
-::: link
+::::: link
 ::: link-header
 #### {{< iconify mdi:pliers >}} dplyr Cheat Sheet PDF
 :::
@@ -131,9 +131,9 @@ After that, the world (or, in this case, data) is your oyster! I primarily use T
 ::: link-container
 <a href = "https://rstudio.github.io/cheatsheets/data-transformation.pdf" target = "_blank">https://rstudio.github.io/cheatsheets/data-transformation.pdf</a>
 :::
-:::
+:::::
 
-::: link
+::::: link
 ::: link-header
 #### {{< iconify mdi-light:chart-line >}} GGPlot2 Cheat Sheet PDF
 :::
@@ -141,4 +141,4 @@ After that, the world (or, in this case, data) is your oyster! I primarily use T
 ::: link-container
 <a href = "https://rstudio.github.io/cheatsheets/data-visualization.pdf" target = "_blank">https://rstudio.github.io/cheatsheets/data-visualization.pdf</a>
 :::
-:::
+:::::

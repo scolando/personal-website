@@ -104,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./blog.html"> 
-<span class="menu-text">Blogs</span></a>
+<span class="menu-text">Notebooks</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./cv.html"> 
@@ -151,8 +151,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   <div class="about-contents"><main class="content" id="quarto-document-content">
 <p>Hi, and welcome to my website!</p>
-<p>I am a first-year Ph.D.&nbsp;student in the Department of Statistics and Data Science at Carnegie Mellon University. I graduated magna cum laude from Pomona College in Spring 2024 with a double major in Mathematics and Philosophy.</p>
-<p>Since Summer 2022, I have been heavily involved in biostatistics research in genomics – investigating technical conditions that underlie ChIP-Seq normalization methods with <a href="https://hardin47.netlify.app">Jo Hardin</a> at Pomona. I am also passionate about work at the intersection of statistics, data science, and philosophy, particularly related to data science ethics. Find out more about my interests and past experiences by browsing the site.</p>
+<p>I am a first-year Ph.D.&nbsp;student in the Department of Statistics and Data Science at Carnegie Mellon University. I graduated <em>magna cum laude</em> from Pomona College in Spring 2024 with a double major in Mathematics and Philosophy.</p>
+<p>This spring, I started my Advanced Data Analysis (ADA) project on predicting avoidance ties in social networks through leveraging features of the positive network between the same individuals and basic node-level covariates (e.g., sex and ethnicity) in collaboration with <a href="https://www.stat.cmu.edu/~nynke/">Nynke Niezink</a> and Eva Jaspers (Utrecht University). Additionally, since Summer 2022, I have been involved in genomics research – investigating technical conditions that underlie ChIP-Seq normalization methods with <a href="https://hardin47.netlify.app">Jo Hardin</a>.</p>
+<p>I am also passionate about work at the intersection of statistics, data science, and philosophy, particularly related to data science ethics and (social) epistemology. Find out more about my interests and past experiences by browsing the site.</p>
 
 
 </main></div>
@@ -243,7 +244,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("scolando\.github\.io\/personal-website\/");
+      var filterRegex = new RegExp("https:\/\/scolando\.github\.io\/personal-website\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

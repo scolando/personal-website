@@ -10,6 +10,11 @@
   },
   {
     "listing": "/blog.html",
-    "items": []
+    "items": [
+      "/blogs/grad-applications.html",
+      "/blogs/DA-exam-materials.html",
+      "/blogs/theory-review.html",
+      "/blogs/understanding-fairness-metrics.html"
+    ]
   }
 ]

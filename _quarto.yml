@@ -5,7 +5,7 @@ project:
 website:
   title: "Sara Colando"
   favicon: "personal-website-hex-sticker.png"
-  site-url: scolando.github.io/personal-website/
+  site-url: https://scolando.github.io/personal-website/
   repo-url: https://github.com/scolando/personal-website
   page-navigation: true
   
@@ -21,7 +21,7 @@ website:
       - href: projects.qmd
         text: "TidyTuesdays"
       - href: blog.qmd
-        text: "Blogs"
+        text: "Notebooks"
       - href: cv.qmd
         text: "CV"
     
@@ -44,9 +44,5 @@ format:
     fontcolor: "#220D07"
     title-block-banner-color: "#F5F3E0"
     mainfont: "Lato"
-      
-      
     toc: true
-
-editor: visual
 

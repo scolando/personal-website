@@ -1,9 +1,10 @@
 ---
-title: "Blogs"
+title: "Notebooks"
 author: Sara Colando
 listing: 
   contents: blogs
-  type: table
-  sort: date
+  type: grid
+  sort-ui: [title, date]
+  categories: true
   fields: [image, title, author, date]
 ---

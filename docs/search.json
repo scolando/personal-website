@@ -11,7 +11,7 @@
     "href": "blog.html",
     "title": "Notebooks",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n\n\n\n\n\n\n\n\nApplying to (Bio)statistics PhD Programs\n\n\n\n\n\n\nJan 19, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nDA Exam Materials\n\n\n\n\n\n\nJan 19, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nProbability and Statistical Theory\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUnderstanding (and Distinguishing) Common Algorithmic Fairness Metrics\n\n\n\n\n\n\nJan 19, 2025\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n\n\n\n\n\n\n\n\nApplying to (Bio)statistics PhD Programs\n\n\n\n\n\n\nMay 12, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon Outcome-Based Algorithmic Fairness Metrics\n\n\n\n\n\n\nMay 12, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nDA Exam Materials\n\n\n\n\n\n\nMay 12, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nProbability and Statistical Theory\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "cv.html",
@@ -81,7 +81,7 @@
     "href": "index.html",
     "title": "Sara Colando",
     "section": "",
-    "text": "Hi, and welcome to my website!\nI am a first-year PhD student in the Department of Statistics and Data Science at Carnegie Mellon University. I graduated magna cum laude from Pomona College in Spring 2024 with a double major in Mathematics and Philosophy.\nThis spring, I started my Advanced Data Analysis (ADA) project on predicting avoidance ties in social networks through leveraging features of the positive network between the same individuals and basic node-level covariates (e.g., sex and ethnicity) in collaboration with Nynke Niezink and Eva Jaspers (Utrecht University). Additionally, I have been involved in genomics research – investigating technical conditions that underlie ChIP-Seq normalization methods with Jo Hardin since Summer 2022.\nI am also passionate about work at the intersection of statistics, data science, and philosophy, particularly related to data science ethics and (social) epistemology. Find out more about my interests and past experiences by browsing the site."
+    "text": "Hi, and welcome to my website!\nI am a PhD student in the Department of Statistics and Data Science at Carnegie Mellon University. I graduated magna cum laude from Pomona College in Spring 2024 with a double major in Mathematics and Philosophy.\nThis spring, I started my Advanced Data Analysis (ADA) project on predicting avoidance ties within social networks by leveraging features of the positive network between the same individuals and basic node-level covariates (e.g., sex and ethnicity) in collaboration with Nynke Niezink and Eva Jaspers (Utrecht University). Additionally, I have been involved in genomics research – investigating technical conditions that underlie ChiP-Seq normalization methods with Jo Hardin since Summer 2022.\nI am also passionate about work at the intersection of statistics, data science, and philosophy, particularly related to data science ethics and (social) epistemology. Find out more about my interests and past experiences by browsing the site."
   },
   {
     "objectID": "projects.html",
@@ -116,14 +116,14 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I am a first-year Ph.D. student in Carnegie Mellon’s Statistics and Data Science department. Before that, I attended Pomona College in Claremont, California, where I completed a double major in mathematics and philosophy. At Pomona, I worked primarily with Jo Hardin, conducting research in statistical genomics and data science ethics pedagogy.\nOutside of research, I really enjoy mentoring (doing so for Statistical Linear Models, Introduction to Biostatistics, Linear Algebra, Introductory Genetics, and Pomona’s 1-2-1 math summer bridge program) and am also a big data visualization nerd and try to spend some time creating a new one each week as part of TidyTuesday (a community activity put on by the Data Science Learning Community). In my free time, I also like to run and was part of Pomona-Pitzer’s Cross Country and Track and Field teams during my four years at Pomona.\nAnother primary interest of mine is philosophy, especially (feminist) philosophy of science, ethics, and epistemology. I hope to stay engaged in philosophy and, with that, continue to understand the ethical dimensions of statistical technologies while completing my Ph.D. at Carnegie Mellon."
+    "text": "I am a PhD student in Carnegie Mellon’s Statistics and Data Science department. Before that, I attended Pomona College in Claremont, California, where I graduated with a double major in mathematics and philosophy in Spring 2024. At Pomona, I worked primarily with Jo Hardin, conducting research in both statistical genomics and data science ethics pedagogy.\nOutside of research, I also really enjoy teaching. So far, I have been a graduate TA for 36-600: Overview of Statistical Learning and Modeling, and a head TA for 36-226: Introduction to Statistical Inference at CMU. This summer, I will be TA for the Carnegie Mellon Sports Analytics Summer Camp and instruct some early lectures on data analysis in R. I am also a big data visualization nerd and try to spend some time creating a new one each week as part of TidyTuesday (a community activity put on by the Data Science Learning Community). In my free time, I like to run and was part of Pomona-Pitzer’s Cross Country and Track and Field teams during my four years at Pomona.\nAnother primary interest of mine is philosophy, particularly (feminist) philosophy of science, ethics, and (social) epistemology. I hope to stay engaged in philosophy and, with that, work to understand the ethical dimensions of statistical technologies while completing my PhD at Carnegie Mellon."
   },
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
     "title": "About",
     "section": "Education",
-    "text": "Education\n Ph.D. in Statistics and Data Science (in progress)\nCarnegie Mellon University\n B.A. in Mathematics and Philosophy (May 2024)\nPomona College"
+    "text": "Education\n PhD in Statistics (in progress)\nCarnegie Mellon University\n BA in Mathematics and Philosophy (May 2024)\nPomona College"
   },
   {
     "objectID": "about.html#contact",
@@ -226,16 +226,16 @@
   {
     "objectID": "blogs/understanding-fairness-metrics.html",
     "href": "blogs/understanding-fairness-metrics.html",
-    "title": "Understanding (and Distinguishing) Common Algorithmic Fairness Metrics",
+    "title": "Common Outcome-Based Algorithmic Fairness Metrics",
     "section": "",
-    "text": "Figure 1: A slightly cynical perspective on algorithmicfairness metrics from Machines Gone Wrong.\nAlgorithms are becoming an increasingly ubiquitous component of decision-making with high moral stakes, such as loan and mortgage approval, governmental aid allocations, health insurance claim approval, and US bail and sentencing procedures. With the growing use of algorithms in settings with high moral stakes, there has also been a growing concern about algorithmic fairness, or more specifically, whether an algorithm used to make decisions in such settings is (un)fair.\nMany statistical metrics have been developed to assess whether a given algorithm is (un)fair. Since 2022, I have been interested in these measures and how they track with discussions of fairness and justice coming from Philosophy – a field which has been theorizing about fairness and justice for more than two millennia. However, when doing research on statistical metrics of fairness, I realized that the definitions of such metrics tend to be scattered across multiple papers, making it difficult to understand how different metrics compare (or motivate) one another.\nIn this notebook, I provide an overview of common algorithmic fairness metrics coming from Statistics and draw comparison between the described metrics. For simplicity, I focus on outcome-based measures of fairness (i.e., metrics that evaluate an algorithm for fairness using its outputted predictions), though, I hope to delve into more procedural-based fairness measures sometime in the future. Additionally, since many of the common fairness metrics are for discrete prediction problems, I primarily focus on those metrics in this notebook rather than fairness metrics for continuous prediction problems."
+    "text": "Figure 1: A slightly cynical perspective on outcome-basedalgorithmic fairness metrics from Machines Gone Wrong.\nAlgorithms are becoming an increasingly ubiquitous component of decision-making with high moral stakes, such as loan and mortgage approval, governmental aid allocations, health insurance claim approval, and US bail and sentencing procedures. With the growing use of algorithms in settings with high moral stakes, there has also been a growing concern about algorithmic fairness, or more specifically, whether an algorithm used to make decisions in such settings is (un)fair.\nMany statistical metrics have been developed to assess whether a given algorithm is (un)fair. Since 2022, I have been interested in these measures and how they track with discussions of fairness and justice coming from Philosophy – a field which has been theorizing about fairness and justice for more than two millennia. However, when doing research on statistical metrics of fairness, I realized that the definitions of such metrics tend to be scattered across multiple papers, making it difficult to understand how different metrics compare (or motivate) one another.\nIn this notebook, I provide an overview of common algorithmic fairness metrics coming from Statistics and draw comparison between the described metrics. For simplicity, this notebook focuses on outcome-based measures of fairness (i.e., metrics that evaluate an algorithm for fairness using its outputted predictions). In a future notebook, I hope to delve into more procedural-based algorithm fairness measures. Additionally, since many of the common fairness metrics are for discrete prediction problems, I primarily focus on metrics in this notebook rather than fairness metrics for continuous prediction problems. For example, predicting whether or not someone will be reconvicted rather than the time-until reconviction (and whether that time is censored)."
   },
   {
     "objectID": "blogs/understanding-fairness-metrics.html#calibration-within-groups",
     "href": "blogs/understanding-fairness-metrics.html#calibration-within-groups",
-    "title": "Understanding (and Distinguishing) Common Algorithmic Fairness Metrics",
-    "section": "Calibration within Groups",
-    "text": "Calibration within Groups"
+    "title": "Common Outcome-Based Algorithmic Fairness Metrics",
+    "section": "2.8 Calibration within Groups",
+    "text": "2.8 Calibration within Groups"
   },
   {
     "objectID": "blogs/understanding-fairness-metrics.html#predictive-parity",
@@ -247,9 +247,9 @@
   {
     "objectID": "blogs/understanding-fairness-metrics.html#equal-false-positive-rates",
     "href": "blogs/understanding-fairness-metrics.html#equal-false-positive-rates",
-    "title": "Understanding (and Distinguishing) Common Algorithmic Fairness Metrics",
-    "section": "Equal False Positive Rates",
-    "text": "Equal False Positive Rates\nLike Predictive Parity, Equal False Positive Rates also equalizes prediction performance among only a subset of individuals. Per the Equal False Positive Rates metric, an algorithm is unfair if e probability that it mispredicts an individual whose true class is positive as negative is different between relevant groups, or written formally if:\n\\[\\mathbb{P}(\\mathrm{Pred.~Class = 1|~True~Class = 0,~Group = A}) \\neq \\mathbb{P}(\\mathrm{Pred.~Class = 1|~True~Class = 0,~Group = B})\\]\nHere, the goal of Equal False Positive Rates is to prevent an algorithm from"
+    "title": "Common Outcome-Based Algorithmic Fairness Metrics",
+    "section": "2.3 Equal False Positive Rates",
+    "text": "2.3 Equal False Positive Rates\nLike the Predictive Parity metric, the Equal False Positive Rates metric only equalizes prediction performance among a subset of individuals in the relevant groups. Per the Equal False Positive Rates metric, an algorithm is unfair if the probability that an individual whose true class is negative is predicted as positive differs between the relevant groups. This can be formalized as:\n\\mathbb{P}(\\mathrm{Pred.~Class = 1|~True~Class = 0,~Group = A}) \\neq \\mathbb{P}(\\mathrm{Pred.~Class = 1|~True~Class = 0,~Group = B})\nFor example, using Equal False Positive Rates as a fairness metric would prevent cases where more people in group A are incorrectly identified as recidivists than in group B. In the ProPublica report on the COMPAS algorithm, ADD argue COMPAS is biased, and thus unfair, on the basis on unequal false positive rates between Black and White defendants. Specifically, they found that Black defendants were two times more likely to be falsely labeled as future criminals than white defendants."
   },
   {
     "objectID": "blogs/understanding-fairness-metrics.html#equal-false",
@@ -261,23 +261,23 @@
   {
     "objectID": "blogs/understanding-fairness-metrics.html#equal-false-negative-rates",
     "href": "blogs/understanding-fairness-metrics.html#equal-false-negative-rates",
-    "title": "Understanding (and Distinguishing) Common Algorithmic Fairness Metrics",
-    "section": "Equal False Negative Rates",
-    "text": "Equal False Negative Rates\nAlong a similar vein to Equal False Positive Rates is Equal False Negative Rates, which says that an algorithm is unfair if the probability that it mispredicts an individual whose true class is negative as positive is different between relevant groups. That is:\n\\[\\mathbb{P}(\\mathrm{Pred.~Class = 0|~True~Class = 1,~Group = A}) \\neq \\mathbb{P}(\\mathrm{Pred.~Class = 0|~True~Class = 1,~Group = B})\\]"
+    "title": "Common Outcome-Based Algorithmic Fairness Metrics",
+    "section": "2.4 Equal False Negative Rates",
+    "text": "2.4 Equal False Negative Rates\nAlong a similar vein to Equal False Positive Rates is the fairness metric of Equal False Negative Rates, which says that an algorithm is unfair if the probability that an individual whose true class is negative will be predicted as positive differs between relevant groups:\n\\mathbb{P}(\\mathrm{Pred.~Class = 0|~True~Class = 1,~Group = A}) \\neq \\mathbb{P}(\\mathrm{Pred.~Class = 0|~True~Class = 1,~Group = B})\nADD also found that COMPAS had different false negative rates between Black and white defendants. Namely, “white defendants were mislabeled as low risk more often than black defendants”, which they also used to justify their conclusion that the COMPAS algorith was biased and thus unfair CITE."
   },
   {
     "objectID": "blogs/understanding-fairness-metrics.html#equalized-odds",
     "href": "blogs/understanding-fairness-metrics.html#equalized-odds",
-    "title": "Understanding (and Distinguishing) Common Algorithmic Fairness Metrics",
-    "section": "Equalized Odds",
-    "text": "Equalized Odds\n\\[\\mathbb{P}(\\mathrm{Pred.~Class = 1|~True~Class = X,~Group = A}) \\neq \\mathbb{P}(\\mathrm{Pred.~Class = 1|~True~Class = X,~Group = B})\\] where \\(X \\in \\{0,1\\}\\)"
+    "title": "Common Outcome-Based Algorithmic Fairness Metrics",
+    "section": "2.7 Equalized Odds",
+    "text": "2.7 Equalized Odds\n\\mathbb{P}(\\mathrm{Pred.~Class = 1|~True~Class = X,~Group = A}) \\neq \\mathbb{P}(\\mathrm{Pred.~Class = 1|~True~Class = X,~Group = B}) where, X \\in \\{0,1\\}"
   },
   {
     "objectID": "blogs/understanding-fairness-metrics.html#equal-accuracy",
     "href": "blogs/understanding-fairness-metrics.html#equal-accuracy",
-    "title": "Understanding (and Distinguishing) Common Algorithmic Fairness Metrics",
-    "section": "Equal Accuracy",
-    "text": "Equal Accuracy\nPerhaps the most flat-footed algorithmic fairness metric is Equal Accuracy, which says that an algorithm is unfair if it has unequal accuracy across relevant groups. For instance, suppose we had two relevant groups, denoted as A and B. Then, according to Equal Accuracy, an algorithm is unfair if:2\n\\[\\mathbb{P}(\\mathrm{Pred.~Class = True~Class~|~Group = A}) \\neq \\mathbb{P}(\\mathrm{Pred.~Class = True~Class~|~Group = B})\\] which is to say, an algorithm is unfair when the probability that the predicted class is the same as the true class is different between relevant groups."
+    "title": "Common Outcome-Based Algorithmic Fairness Metrics",
+    "section": "2.1 Equal Accuracy",
+    "text": "2.1 Equal Accuracy\nPerhaps the most flat-footed algorithmic fairness metric is Equal Accuracy, which says that an algorithm is unfair if it has unequal accuracy across relevant groups. That is, suppose we had two relevant groups, denoted as A and B. Then, according to Equal Accuracy, an algorithm is unfair if:2\n\\mathbb{P}(\\mathrm{Pred.~Class = True~Class~|~Group = A}) \\neq \\mathbb{P}(\\mathrm{Pred.~Class = True~Class~|~Group = B}) In other words, an algorithm is unfair when the probability that the predicted class is the same as the true class is different between relevant groups under the Equal Accuracy metric."
   },
   {
     "objectID": "blogs/understanding-fairness-metrics.html#statistical-parity",
@@ -296,44 +296,44 @@
   {
     "objectID": "blogs/understanding-fairness-metrics.html#footnotes",
     "href": "blogs/understanding-fairness-metrics.html#footnotes",
-    "title": "Understanding (and Distinguishing) Common Algorithmic Fairness Metrics",
+    "title": "Common Outcome-Based Algorithmic Fairness Metrics",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nFrom the COMPAS example, can already see a point of contention in characterizing algorithmic fairness for discrete prediction problems, which is what threshold to use for decision-making. For example, why separate low from medium to high risk of recidivism at 4-5 rather than 3-4 or 5-6?↩︎\nYou might notice that in this notebook, I interpret each fairness metric as a necessary but not necessarily sufficient condition of algorithm fairness, meaning that an algorithm would be considered unfair if it does not satisfy X metric necessary for algorithmic fairness but it would not necessarily be fair if it does satisfy the required metric. This, in my opinion, is the most charitable way of interpreting the common statistical fairness metrics that I discuss in this notebook.↩︎"
+    "text": "Footnotes\n\n\nFrom the COMPAS example, we can already see a point of contention in characterizing algorithmic fairness for discrete prediction problems, which is what threshold to use for decision-making? For example, why separate low from medium to high risk of recidivism at 4-5 rather than 3-4 or 5-6? How do we think about fairness when determining decision thresholds?↩︎\nIn this notebook, I interpret each fairness metric as a necessary but not necessarily sufficient condition of algorithm fairness, meaning that an algorithm would be considered unfair if it does not satisfy X metric necessary for algorithmic fairness but it would not necessarily be fair if it does satisfy the required metric. This, in my opinion, is the most charitable way of interpreting the common statistical fairness metrics that I discuss in this notebook.↩︎"
   },
   {
     "objectID": "blogs/understanding-fairness-metrics.html#demographicstatistical-parity",
     "href": "blogs/understanding-fairness-metrics.html#demographicstatistical-parity",
-    "title": "Understanding (and Distinguishing) Common Algorithmic Fairness Metrics",
-    "section": "Demographic/Statistical Parity",
-    "text": "Demographic/Statistical Parity\n\\[\\mathbb{P}(\\mathrm{Pred.~Class = 1~|~Group = A}) \\neq \\mathbb{P}(\\mathrm{Pred.~Class = 1~|~Group = B})\\]"
+    "title": "Common Outcome-Based Algorithmic Fairness Metrics",
+    "section": "2.6 Demographic/Statistical Parity",
+    "text": "2.6 Demographic/Statistical Parity\n\\mathbb{P}(\\mathrm{Pred.~Class = 1~|~Group = A}) \\neq \\mathbb{P}(\\mathrm{Pred.~Class = 1~|~Group = B})"
   },
   {
     "objectID": "blogs/understanding-fairness-metrics.html#predictive-parity-sometimes-also-called-equal-opportunity",
     "href": "blogs/understanding-fairness-metrics.html#predictive-parity-sometimes-also-called-equal-opportunity",
     "title": "Understanding (and Distinguishing) Common Algorithmic Fairness Metrics",
     "section": "Predictive Parity (sometimes also called Equal Opportunity)",
-    "text": "Predictive Parity (sometimes also called Equal Opportunity)\nHowever, depending on the context of the algorithm, it might be more crucial from the perspective fairness to ensure that there is equal accuracy between groups among those predicted as part of the positive class, rather than simply guaranteeing that there is equal accuracy between the relevant groups in general (i.e., unconditioned on the individual’s predicted class). The fairness metric of Predictive Parity captures this concern. According to Predictive Parity, an algorithm is unfair between relevant groups A and B if:\n\\[\\mathbb{P}(\\mathrm{True~Class = 1|~Pred.~Class =1,~Group = A}) \\neq \\mathbb{P}(\\mathrm{True~Class = 1|~Pred.~Class = 1,~Group = B})\\] Notice how Predictive Parity relates to the algorithm’s Positive Predictive Value (PPV) or Precision. Specifically, when an algorithm satisfies Predictive Parity, we expect for the PPV for the relevant groups to be equal. That is for:\n\\[\\left( \\frac{TP + FN}{TP + FP} \\right)_\\mathrm{Group~=~A} = \\left( \\frac{TP + FN}{TP + FP} \\right)_\\mathrm{Group~=~B}\\] Sometimes, Predictive Parity is also referred to as the Equal Opportunity metric. ADD"
+    "text": "Predictive Parity (sometimes also called Equal Opportunity)\nHowever, depending on the context in which the algorithm is used, it might be crucial from the perspective fairness to ensure that there is equal accuracy between groups among those predicted as part of the positive class, rather than simply guaranteeing that there is equal accuracy between the relevant groups in general (i.e., unconditioned on the individual’s predicted class). For instance, it seems more important from the perspective of fairness that a hiring algorithm correctly identify the same proportion of candidates who are qualified for a job between relevant groups than that the same proportion of candidates are correctly identified as being unqualified between relevant groups.\nThe metric of Predictive Parity captures this concern. According to Predictive Parity, an algorithm is unfair between relevant groups A and B if:\n\\mathbb{P}(\\mathrm{True~Class = 1|~Pred.~Class =1,~Group = A}) \\neq \\mathbb{P}(\\mathrm{True~Class = 1|~Pred.~Class = 1,~Group = B}) Notice how Predictive Parity relates to the algorithm’s Positive Predictive Value (PPV) or Precision. Specifically, when an algorithm satisfies Predictive Parity, we expect for the PPV and Precision for the relevant groups to be equal. That is:\n\\left( \\frac{TP + FN}{TP + FP} \\right)_\\mathrm{Group~=~A} = \\left( \\frac{TP + FN}{TP + FP} \\right)_\\mathrm{Group~=~B} Sometimes, Predictive Parity is also referred to as the Equal Opportunity metric."
   },
   {
     "objectID": "blogs/understanding-fairness-metrics.html#equal-ratios-of-false-positive-rates-to-false-negative-rates",
     "href": "blogs/understanding-fairness-metrics.html#equal-ratios-of-false-positive-rates-to-false-negative-rates",
-    "title": "Understanding (and Distinguishing) Common Algorithmic Fairness Metrics",
-    "section": "Equal Ratios of False Positive Rates to False Negative Rates",
-    "text": "Equal Ratios of False Positive Rates to False Negative Rates\nA looser requirement for algorithmic fairness is Equal Ratios of False Positive Rates to False Negative Rates, which does not need neither Equal False Positive Rates nor Equal False Negative Rates between relevant groups. Putting together the formalizations of the two prior metrics, we get that an algorithm is unfair, according to Equal Ratios of False Positive Rates to False Negative Rates, if:\n\\[\\frac{\\mathbb{P}(\\mathrm{Pred.~Class = 1|~True~Class = 0,~Group = A})}{\\mathbb{P}(\\mathrm{Pred.~Class = 0|~True~Class = 1,~Group = A})} \\neq \\frac{\\mathbb{P}(\\mathrm{Pred.~Class = 1|~True~Class = 0,~Group = B})}{\\mathbb{P}(\\mathrm{Pred.~Class = 0|~True~Class = 1,~Group = B})}\\]\nOne reason why we might care about Equal Ratios of False Positive Rates to False Negative Rates for algorithmic fairness is because we care about the algorithm"
+    "title": "Common Outcome-Based Algorithmic Fairness Metrics",
+    "section": "2.5 Equal Ratios of False Positive Rates to False Negative Rates",
+    "text": "2.5 Equal Ratios of False Positive Rates to False Negative Rates\nA looser requirement for algorithmic fairness is Equal Ratios of False Positive Rates to False Negative Rates, which does not require either Equal False Positive Rates or Equal False Negative Rates to hold between relevant groups. Putting together the formalizations of the two prior metrics, we get that an algorithm is unfair, according to Equal Ratios of False Positive Rates to False Negative Rates, if:\n\\frac{\\mathbb{P}(\\mathrm{Pred.~Class = 1|~True~Class = 0,~Group = A})}{\\mathbb{P}(\\mathrm{Pred.~Class = 0|~True~Class = 1,~Group = A})} \\neq \\frac{\\mathbb{P}(\\mathrm{Pred.~Class = 1|~True~Class = 0,~Group = B})}{\\mathbb{P}(\\mathrm{Pred.~Class = 0|~True~Class = 1,~Group = B})}\nAt first glance, it is hard to understand why would care about equal ratios of false positive rates to false negative rates; would it not make more sense to want both equal false positive rates and equal false negative rates to hold between relevant groups? One reason that we might care about Equal Ratios of False Positive Rates to False Negative Rates for algorithmic fairness is because we care about the algorithm ADD"
   },
   {
     "objectID": "blogs/understanding-fairness-metrics.html#balance-for-positive-class",
     "href": "blogs/understanding-fairness-metrics.html#balance-for-positive-class",
-    "title": "Understanding (and Distinguishing) Common Algorithmic Fairness Metrics",
-    "section": "Balance for Positive Class",
-    "text": "Balance for Positive Class"
+    "title": "Common Outcome-Based Algorithmic Fairness Metrics",
+    "section": "2.9 Balance for Positive Class",
+    "text": "2.9 Balance for Positive Class"
   },
   {
     "objectID": "blogs/understanding-fairness-metrics.html#balance-for-negative-class",
     "href": "blogs/understanding-fairness-metrics.html#balance-for-negative-class",
-    "title": "Understanding (and Distinguishing) Common Algorithmic Fairness Metrics",
-    "section": "Balance for Negative Class",
-    "text": "Balance for Negative Class"
+    "title": "Common Outcome-Based Algorithmic Fairness Metrics",
+    "section": "2.10 Balance for Negative Class",
+    "text": "2.10 Balance for Negative Class"
   },
   {
     "objectID": "cv.html#publications-and-papers",
@@ -362,5 +362,68 @@
     "title": "Curriculum Vitae",
     "section": "Other Research Experience",
     "text": "Other Research Experience\nPomona College Department of Mathematics and StatisticsResearch Assistant to Dr. Johanna Hardin May 2022 – Aug 2024\n\nAnalyzed between-sample normalization techniques by their technical assumptions to improve differential binding analysis practices for ChIP-Seq and similarly structured types of high-throughput data\nCreated reproducible ChIP-Seq read count simulations using R, Bash, and high-performance computing to examine how violating normalization method assumptions impacts the false discovery rate and power of identifying genomic regions with true differential DNA occupancy.\n\nData Science Ethics Independent Project (Supervisor: Dr. Johanna Hardin) May – Oct 2023\n\nSynthesized resources and pedagogies of existing Data Science Ethics undergraduate courses to connect key ethical concepts to data science practices\nCreated a website to effectively communicate data science ethics concepts and relevant background information to a broad community of decision-makers\nAided in Pomona College’s development of an ethics course for the recently approved data science minor\n\nCarnegie Mellon University Department of Statistics and Data ScienceResearch Assistant to Dr. Ron Yurko May – Aug 2023\n\nPerforming mixture-model clustering analysis to discover trends in movement patterns for injured racehorses\nIdentifying horses who under-raced through residual analysis of a created expected race count model\nEngaged in 8 weeks of lectures about popular statistical analysis techniques, data engineering, and novel data science methodologies employed in sports analytics\n\nSelf-Directed ProjectData Analysis and Visualization CreatorJan 2021 – May 2024\n\nConducting exploratory data analysis in R to improve data visualization and communication skills every week using data provided by the “R for Data Science” Online Learning Community\nHelping students new to R become more familiar with the programming language and troubleshoot errors in 2-hour Pomona TidyTuesday workshop offered each week\n\nUniversity of California, San Diego Halıcıoğlu Data Science Institute Intelligence, Data, Ethics, and Society (IDEAS) Summer Institute Participant Aug 2023\n\nParticipated in workshops taught by experts in domains like data science, AI, philosophy, and law to improve critical and interdisciplinary thinking on data science and AI ethics topics\nCollaborated with three other students on a two-week research project, examining practical methods of implementing responsible data science and AI practices in a California wildfire resource allocation algorithm\n\nUniversity of Michigan School of Public HealthBig Data Summer Institute Research Assistant to Dr. Nikola Banovic June – Aug 2022\n\nCollaborated with three other students to implement a partially Bayesian neural network to quantify and communicate prediction uncertainty in a supervised brain tumor segmentation model via Python’s PyTorch and TensorFlow packages\nParticipated in 6 weeks of lectures about ethical data collection practice in healthcare, probability and statistical theory, and the ethical implications of using statistics and computer science methods in healthcare settings"
+  },
+  {
+    "objectID": "blogs/understanding-fairness-metrics.html#predictive-parity-sometimes-called-equal-opportunity",
+    "href": "blogs/understanding-fairness-metrics.html#predictive-parity-sometimes-called-equal-opportunity",
+    "title": "Common Outcome-Based Algorithmic Fairness Metrics",
+    "section": "2.2 Predictive Parity (sometimes called Equal Opportunity)",
+    "text": "2.2 Predictive Parity (sometimes called Equal Opportunity)\nHowever, depending on the context in which the algorithm is used, it might be crucial from the perspective fairness to ensure that there is equal accuracy between groups among those predicted as part of the positive class, rather than simply guaranteeing that there is equal accuracy between the relevant groups in general (i.e., unconditioned on the individual’s predicted class). For instance, it seems more important from the perspective of fairness that a hiring algorithm correctly identify the same proportion of candidates who are qualified for a job between relevant groups than that the same proportion of candidates are correctly identified as being unqualified between relevant groups.\nThe metric of Predictive Parity captures this concern. According to Predictive Parity, an algorithm is unfair between relevant groups A and B if:\n\\mathbb{P}(\\mathrm{True~Class = 1|~Pred.~Class =1,~Group = A}) \\neq \\mathbb{P}(\\mathrm{True~Class = 1|~Pred.~Class = 1,~Group = B}) Notice how Predictive Parity relates to the algorithm’s Positive Predictive Value (PPV) or Precision. Specifically, when an algorithm satisfies Predictive Parity, we expect for the PPV and Precision for the relevant groups to be equal. That is:\n\\left( \\frac{TP + FN}{TP + FP} \\right)_\\mathrm{Group~=~A} = \\left( \\frac{TP + FN}{TP + FP} \\right)_\\mathrm{Group~=~B} Sometimes, Predictive Parity is called the Equal Opportunity metric."
+  },
+  {
+    "objectID": "blogs/understanding-fairness-metrics.html#true-positives-false-positives-true-negatives-and-false-negatives",
+    "href": "blogs/understanding-fairness-metrics.html#true-positives-false-positives-true-negatives-and-false-negatives",
+    "title": "Common Outcome-Based Algorithmic Fairness Metrics",
+    "section": "1.1 True Positives, False Positives, True Negatives, and False Negatives",
+    "text": "1.1 True Positives, False Positives, True Negatives, and False Negatives\n\n\n\n\n\n\n\nFigure 2: Confusion Matrix Diagram from Analytics Vidhya.\n\n\n\n\nMost fairness metrics for discrete prediction algorithms use some combination of true positives, true negatives, false positives, and false negatives in their calculations. A helpful way of visualizing the difference between terms is through a confusion matrix (like the one depicted for a binary prediction algorithm in Figure 2). Notice how true positives, true negatives, false positives, and false negatives all rely on comparing an observation’s predicted class to its true (or actual) class. Specifically, a true positive (TP) is when observation’s true class and predicted class are both positive, and a false positive (FP) is when the observation’s true class is positive but its predicted class is not. On the other hand, a true negative (TN) is when observation’s true class and predicted class are both negative, and a false negative (FN) is when the observation’s true class is positive but its predicted class is not.\nAn Real-World Example: The Correctional Offender Management Profiling for Alternative Sanctions (COMPAS) algorithm is used in US courtrooms to assess the likelihood of a defendant becoming a recidivist (i.e. being re-convicted) by assigning each defendant a score between 1-10 based on their predicted likelihood of recidivism. A defendant is considered to have a low risk of recidivism if their COMPAS score is between 1-4 and medium to high risk of recidivism if their COMPAS score is between 5-10. In ProPublica’s seminal analysis of COMPAS, true positives, false positives, true negatives, and false negatives would be defined as follows:1\n\nA true positive is when a defendant receives a COMPAS score between 5-10 and is re-convicted in the two years after they were scored.\nA false positive is when a defendant receives a COMPAS score between 5-10 but is not re-convicted in the two years after they were scored.\nA true negative is when a defendant receives a COMPAS score between 1-4 and is not re-convicted in the two years after they were scored.\nA false negative is when a defendant receives a COMPAS score between 1-4 but is re-convicted in the two years after they were scored."
+  },
+  {
+    "objectID": "blogs/understanding-fairness-metrics.html#conditional-probability",
+    "href": "blogs/understanding-fairness-metrics.html#conditional-probability",
+    "title": "Common Outcome-Based Algorithmic Fairness Metrics",
+    "section": "1.2 Conditional Probability",
+    "text": "1.2 Conditional Probability\nAnother important concept to understand when talking about statistical fairness metrics is conditional probability which is the probability of an event given that some other event occurs. For example, let A and B be two events, where B has a non-zero probability of occurring, then the conditional probability of A given B (i.e. \\mathbb{P}(A|B)) can be calculated as follows:\n\\mathbb{P}(A|B) = \\frac{\\mathbb{P}(A\\cap B)}{\\mathbb{P}(B)}\nIn real-life cases, we rarely know the true probability of events occurring. Instead, we must estimate this probability empirically from a sample. For instance, we can find the proportion of times that both event A and event B occurred out of the total number of times that event B occurred in our sample.\nOftentimes, in the context of outcome-based algorithmic fairness metrics, the relevant conditional probabilities are computed by comparing the true positives, false positives, true negatives, and/or false negatives between the relevant groups within a sample."
+  },
+  {
+    "objectID": "blogs/understanding-fairness-metrics.html#add",
+    "href": "blogs/understanding-fairness-metrics.html#add",
+    "title": "Understanding (and Distinguishing) Common Algorithmic Fairness Metrics",
+    "section": "3.1 ADD",
+    "text": "3.1 ADD"
+  },
+  {
+    "objectID": "blogs/understanding-fairness-metrics.html#defining-revelant-groups",
+    "href": "blogs/understanding-fairness-metrics.html#defining-revelant-groups",
+    "title": "Common Outcome-Based Algorithmic Fairness Metrics",
+    "section": "3.2 Defining “Revelant Groups”",
+    "text": "3.2 Defining “Revelant Groups”\nGroup-based fairness metrics, which includes all of the ones that I outline in this notebook, require a condition to hold among “relevant groups”. Usually, “relevant groups” is treated as synonymous with groups that correspond to federally protected characteristics, which include race, color, religion, sex, sexual orientation, disability status, and age CITE.\nFurther, what identity group is “socially salient” likely changes between contexts. Indeed, add note that from the perspective of algorithmic justice, we care about comparing the model’s performance for “systematically disadvantaged groups” against that for “systematically advantaged groups” (see their Prioritarian Performance Principle). Yet, as they note, their principle requires a social ontology to determine the relative social position of groups in a given context and, often, socially salient groups can overlap since social positions are complex and intersectional in real-life. For example, ADD"
+  },
+  {
+    "objectID": "blogs/understanding-fairness-metrics.html#additional-resources",
+    "href": "blogs/understanding-fairness-metrics.html#additional-resources",
+    "title": "Common Outcome-Based Algorithmic Fairness Metrics",
+    "section": "3.3 Additional Resources",
+    "text": "3.3 Additional Resources\n\n….\n…."
+  },
+  {
+    "objectID": "blogs/understanding-fairness-metrics.html#impossibility-results",
+    "href": "blogs/understanding-fairness-metrics.html#impossibility-results",
+    "title": "Common Outcome-Based Algorithmic Fairness Metrics",
+    "section": "3.1 Impossibility Results",
+    "text": "3.1 Impossibility Results\nOne of the largest concerns in the Statistics and Machine Learning communities with outcome-based algorithmic fairness metrics is that it has been mathematically proven that three intuitively appealing outcome-based metrics for algorithmic fairness – (1) calibration within groups, (2) equal false positive rates, and (3) equal false negative rates – cannot be simultaneously satisfied when the base rates (i.e., the rate of positive instances) differ between the relevant groups (see CITE). In turn, ADD.\nA natural conclusion given the impossible results is that algorithmic fairness is not possible if the base rates differ between relevant groups. However, it is important to note that this conclusion relies on a hidden premise that ….\nI would argue that …"
+  },
+  {
+    "objectID": "about.html#ongoing-research-projects",
+    "href": "about.html#ongoing-research-projects",
+    "title": "About",
+    "section": "Ongoing Research Projects",
+    "text": "Ongoing Research Projects\nA shortlist of current research projects (as of May 2025):\n\nPredicting Avoidance Ties in Avoidance Networks Leveraging only the Positive Network between the Same Individuals and Basic Node-Level Characteristics (ADA project, in collaboration with Nynke Niezink and Eva Jaspers)\nSelecting Chip-Seq Normalization Methods from the Perspective of their Technical Conditions (in collaboration with Jo Hardin and Danae Schulz)\n\nRevise and Resubmit, 2025\n\nAnalyzing Statistics Students’ Writing Before and After the Emergence of Large Language Models (in collaboration with my cohort-mate, Erin Franke)\n\nPresenting at the Research Satellite at USCOTS 2025\n\nTeaching Data Cleaning and Wrangling with R’s data.table Package (also in collaboration with my cohort-mate, Erin Franke)\n\nPresenting at the Poster and Beyond Session at USCOTS 2025"
+  },
+  {
+    "objectID": "about.html#ongoing-research-projects-as-of-may-2025",
+    "href": "about.html#ongoing-research-projects-as-of-may-2025",
+    "title": "About",
+    "section": "Ongoing Research Projects (as of May 2025)",
+    "text": "Ongoing Research Projects (as of May 2025)\n\nPredicting Avoidance Ties in Avoidance Networks Leveraging only the Positive Network between the Same Individuals and Basic Node-Level Characteristics (in collaboration with Nynke Niezink and Eva Jaspers)\nSelecting Chip-Seq Normalization Methods from the Perspective of their Technical Conditions (in collaboration with Jo Hardin and Danae Schulz)\n\nRevise and Resubmit, 2025\n\nAnalyzing Statistics Students’ Writing Before and After the Emergence of Large Language Models (in collaboration with my cohort-mate, Erin Franke)\n\nPresenting at the Research Satellite at USCOTS 2025\n\nTeaching Data Cleaning and Wrangling with R’s data.table Package (also in collaboration with my cohort-mate, Erin Franke)\n\nPresenting at the Poster and Beyond Session at USCOTS 2025"
   }
 ]

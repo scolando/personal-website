@@ -5,19 +5,37 @@ format:
     toc: false
 ---
 
-I am a first-year Ph.D. student in Carnegie Mellon's Statistics and Data Science department. Before that, I attended Pomona College in Claremont, California, where I completed a double major in mathematics and philosophy. At Pomona, I worked primarily with Jo Hardin, conducting research in statistical genomics and data science ethics pedagogy.
+I am a PhD student in Carnegie Mellon's Statistics and Data Science department. Before that, I attended Pomona College in Claremont, California, where I graduated with a double major in mathematics and philosophy in Spring 2024. At Pomona, I worked primarily with Jo Hardin, conducting research in both statistical genomics and data science ethics pedagogy.
 
-Outside of research, I really enjoy mentoring (doing so for Statistical Linear Models, Introduction to Biostatistics, Linear Algebra, Introductory Genetics, and Pomona's 1-2-1 math summer bridge program) and am also a big data visualization nerd and try to spend some time creating a new one each week as part of TidyTuesday (a community activity put on by the *Data Science Learning Community*). In my free time, I also like to run and was part of Pomona-Pitzer's Cross Country and Track and Field teams during my four years at Pomona.
+Outside of research, I also really enjoy teaching. So far, I have been a graduate TA for 36-600:  Overview of Statistical Learning and Modeling, and a head TA for 36-226: Introduction to Statistical Inference at CMU. This summer, I will be TA for the Carnegie Mellon Sports Analytics Summer Camp and instruct some early lectures on data analysis in R. I am also a big data visualization nerd and try to spend some time creating a new one each week as part of TidyTuesday (a community activity put on by the *Data Science Learning Community*). In my free time, I like to run and was part of Pomona-Pitzer's Cross Country and Track and Field teams during my four years at Pomona.
 
-Another primary interest of mine is philosophy, especially (feminist) philosophy of science, ethics, and epistemology. I hope to stay engaged in philosophy and, with that, continue to understand the ethical dimensions of statistical technologies while completing my Ph.D. at Carnegie Mellon.
+Another primary interest of mine is philosophy, particularly (feminist) philosophy of science, ethics, and (social) epistemology. I hope to stay engaged in philosophy and, with that, work to understand the ethical dimensions of statistical technologies while completing my PhD at Carnegie Mellon.
+
+## Ongoing Research Projects
+
+**A shortlist of current research projects (as of May 2025):**
+
+- Predicting Avoidance Ties in Avoidance Networks Leveraging only the Positive Network between the Same Individuals and Basic Node-Level Characteristics (ADA project, in collaboration with [Nynke Niezink]() and Eva Jaspers)
+
+- Selecting Chip-Seq Normalization Methods from the Perspective of their Technical Conditions (in collaboration with [Jo Hardin](https://hardin47.netlify.app) and Danae Schulz)
+
+    - Revise and Resubmit, 2025
+
+- Analyzing Statistics Students' Writing Before and After the Emergence of Large Language Models (in collaboration with my cohort-mate, [Erin Franke](https://efranke22.github.io/))
+
+    - Presenting at the Research Satellite at USCOTS 2025
+
+- Teaching Data Cleaning and Wrangling with R's `data.table` Package (also in collaboration with my cohort-mate, [Erin Franke](https://efranke22.github.io/))
+
+    - Presenting at the Poster and Beyond Session at USCOTS 2025
 
 ## Education
 
-{{< iconify zondicons:education size=xl >}} Ph.D. in Statistics and Data Science (in progress)
+{{< iconify zondicons:education size=xl >}} PhD in Statistics (in progress)
 
 Carnegie Mellon University
 
-{{< iconify zondicons:education size=xl >}} B.A. in Mathematics and Philosophy (May 2024)
+{{< iconify zondicons:education size=xl >}} BA in Mathematics and Philosophy (May 2024)
 
 Pomona College
 

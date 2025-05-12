@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-01-19">
+<meta name="dcterms.date" content="2025-05-12">
 
-<title>Sara Colando – Understanding (and Distinguishing) Common Algorithmic Fairness Metrics</title>
+<title>Sara Colando – Common Outcome-Based Algorithmic Fairness Metrics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -69,8 +69,22 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -154,26 +168,32 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#some-key-terms" id="toc-some-key-terms" class="nav-link active" data-scroll-target="#some-key-terms">Some Key Terms</a>
+  <li><a href="#some-key-terms" id="toc-some-key-terms" class="nav-link active" data-scroll-target="#some-key-terms"><span class="header-section-number">1</span> Some Key Terms</a>
   <ul class="collapse">
-  <li><a href="#true-positives-false-positives-true-negatives-and-false-negatives" id="toc-true-positives-false-positives-true-negatives-and-false-negatives" class="nav-link" data-scroll-target="#true-positives-false-positives-true-negatives-and-false-negatives">True Positives, False Positives, True Negatives, and False Negatives</a></li>
-  <li><a href="#conditional-probability" id="toc-conditional-probability" class="nav-link" data-scroll-target="#conditional-probability">Conditional Probability</a></li>
+  <li><a href="#true-positives-false-positives-true-negatives-and-false-negatives" id="toc-true-positives-false-positives-true-negatives-and-false-negatives" class="nav-link" data-scroll-target="#true-positives-false-positives-true-negatives-and-false-negatives"><span class="header-section-number">1.1</span> True Positives, False Positives, True Negatives, and False Negatives</a></li>
+  <li><a href="#conditional-probability" id="toc-conditional-probability" class="nav-link" data-scroll-target="#conditional-probability"><span class="header-section-number">1.2</span> Conditional Probability</a></li>
   </ul></li>
-  <li><a href="#algorithmic-fairness-metrics" id="toc-algorithmic-fairness-metrics" class="nav-link" data-scroll-target="#algorithmic-fairness-metrics">Algorithmic Fairness Metrics</a>
+  <li><a href="#algorithmic-fairness-metrics" id="toc-algorithmic-fairness-metrics" class="nav-link" data-scroll-target="#algorithmic-fairness-metrics"><span class="header-section-number">2</span> Algorithmic Fairness Metrics</a>
   <ul class="collapse">
-  <li><a href="#equal-accuracy" id="toc-equal-accuracy" class="nav-link" data-scroll-target="#equal-accuracy">Equal Accuracy</a></li>
-  <li><a href="#predictive-parity-sometimes-also-called-equal-opportunity" id="toc-predictive-parity-sometimes-also-called-equal-opportunity" class="nav-link" data-scroll-target="#predictive-parity-sometimes-also-called-equal-opportunity">Predictive Parity (sometimes also called Equal Opportunity)</a></li>
-  <li><a href="#equal-false-positive-rates" id="toc-equal-false-positive-rates" class="nav-link" data-scroll-target="#equal-false-positive-rates">Equal False Positive Rates</a></li>
-  <li><a href="#equal-false-negative-rates" id="toc-equal-false-negative-rates" class="nav-link" data-scroll-target="#equal-false-negative-rates">Equal False Negative Rates</a></li>
-  <li><a href="#equal-ratios-of-false-positive-rates-to-false-negative-rates" id="toc-equal-ratios-of-false-positive-rates-to-false-negative-rates" class="nav-link" data-scroll-target="#equal-ratios-of-false-positive-rates-to-false-negative-rates">Equal Ratios of False Positive Rates to False Negative Rates</a></li>
-  <li><a href="#demographicstatistical-parity" id="toc-demographicstatistical-parity" class="nav-link" data-scroll-target="#demographicstatistical-parity">Demographic/Statistical Parity</a></li>
-  <li><a href="#equalized-odds" id="toc-equalized-odds" class="nav-link" data-scroll-target="#equalized-odds">Equalized Odds</a></li>
-  <li><a href="#calibration-within-groups" id="toc-calibration-within-groups" class="nav-link" data-scroll-target="#calibration-within-groups">Calibration within Groups</a></li>
-  <li><a href="#balance-for-positive-class" id="toc-balance-for-positive-class" class="nav-link" data-scroll-target="#balance-for-positive-class">Balance for Positive Class</a></li>
-  <li><a href="#balance-for-negative-class" id="toc-balance-for-negative-class" class="nav-link" data-scroll-target="#balance-for-negative-class">Balance for Negative Class</a></li>
+  <li><a href="#equal-accuracy" id="toc-equal-accuracy" class="nav-link" data-scroll-target="#equal-accuracy"><span class="header-section-number">2.1</span> Equal Accuracy</a></li>
+  <li><a href="#predictive-parity-sometimes-called-equal-opportunity" id="toc-predictive-parity-sometimes-called-equal-opportunity" class="nav-link" data-scroll-target="#predictive-parity-sometimes-called-equal-opportunity"><span class="header-section-number">2.2</span> Predictive Parity (sometimes called Equal Opportunity)</a></li>
+  <li><a href="#equal-false-positive-rates" id="toc-equal-false-positive-rates" class="nav-link" data-scroll-target="#equal-false-positive-rates"><span class="header-section-number">2.3</span> Equal False Positive Rates</a></li>
+  <li><a href="#equal-false-negative-rates" id="toc-equal-false-negative-rates" class="nav-link" data-scroll-target="#equal-false-negative-rates"><span class="header-section-number">2.4</span> Equal False Negative Rates</a></li>
+  <li><a href="#equal-ratios-of-false-positive-rates-to-false-negative-rates" id="toc-equal-ratios-of-false-positive-rates-to-false-negative-rates" class="nav-link" data-scroll-target="#equal-ratios-of-false-positive-rates-to-false-negative-rates"><span class="header-section-number">2.5</span> Equal Ratios of False Positive Rates to False Negative Rates</a></li>
+  <li><a href="#demographicstatistical-parity" id="toc-demographicstatistical-parity" class="nav-link" data-scroll-target="#demographicstatistical-parity"><span class="header-section-number">2.6</span> Demographic/Statistical Parity</a></li>
+  <li><a href="#equalized-odds" id="toc-equalized-odds" class="nav-link" data-scroll-target="#equalized-odds"><span class="header-section-number">2.7</span> Equalized Odds</a></li>
+  <li><a href="#calibration-within-groups" id="toc-calibration-within-groups" class="nav-link" data-scroll-target="#calibration-within-groups"><span class="header-section-number">2.8</span> Calibration within Groups</a></li>
+  <li><a href="#balance-for-positive-class" id="toc-balance-for-positive-class" class="nav-link" data-scroll-target="#balance-for-positive-class"><span class="header-section-number">2.9</span> Balance for Positive Class</a></li>
+  <li><a href="#balance-for-negative-class" id="toc-balance-for-negative-class" class="nav-link" data-scroll-target="#balance-for-negative-class"><span class="header-section-number">2.10</span> Balance for Negative Class</a></li>
+  </ul></li>
+  <li><a href="#concerns-with-outcome-based-fairness-metrics" id="toc-concerns-with-outcome-based-fairness-metrics" class="nav-link" data-scroll-target="#concerns-with-outcome-based-fairness-metrics"><span class="header-section-number">3</span> Concerns with Outcome-Based Fairness Metrics</a>
+  <ul class="collapse">
+  <li><a href="#impossibility-results" id="toc-impossibility-results" class="nav-link" data-scroll-target="#impossibility-results"><span class="header-section-number">3.1</span> Impossibility Results</a></li>
+  <li><a href="#defining-revelant-groups" id="toc-defining-revelant-groups" class="nav-link" data-scroll-target="#defining-revelant-groups"><span class="header-section-number">3.2</span> Defining “Revelant Groups”</a></li>
+  <li><a href="#additional-resources" id="toc-additional-resources" class="nav-link" data-scroll-target="#additional-resources"><span class="header-section-number">3.3</span> Additional Resources</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -183,7 +203,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Understanding (and Distinguishing) Common Algorithmic Fairness Metrics</h1>
+<h1 class="title">Common Outcome-Based Algorithmic Fairness Metrics</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Data Science Ethics</div>
   </div>
@@ -197,7 +217,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 19, 2025</p>
+      <p class="date">May 12, 2025</p>
     </div>
   </div>
   
@@ -216,28 +236,32 @@ window.Quarto = {
 <img src="manymetrics.png" class="img-fluid figure-img" width="350">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-placeholder-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: A slightly cynical perspective on algorithmic<br>fairness metrics from <a href="https://machinesgonewrong.com/fairness/">Machines Gone Wrong</a>.
+Figure&nbsp;1: A slightly cynical perspective on outcome-based<br>algorithmic fairness metrics from <a href="https://machinesgonewrong.com/fairness/">Machines Gone Wrong</a>.
 </figcaption>
 </figure>
 </div>
 </div>
 <p>Algorithms are becoming an increasingly ubiquitous component of decision-making with high moral stakes, such as loan and mortgage approval, governmental aid allocations, health insurance claim approval, and US bail and sentencing procedures. With the growing use of algorithms in settings with high moral stakes, there has also been a growing concern about <em>algorithmic fairness</em>, or more specifically, whether an algorithm used to make decisions in such settings is <em>(un)fair</em>.</p>
 <p>Many statistical metrics have been developed to assess whether a given algorithm is (un)fair. Since 2022, I have been interested in these measures and how they track with discussions of fairness and justice coming from Philosophy – a field which has been theorizing about fairness and justice for more than two millennia. However, when doing research on statistical metrics of fairness, I realized that the definitions of such metrics tend to be scattered across multiple papers, making it difficult to understand how different metrics compare (or motivate) one another.</p>
-<p>In this notebook, I provide an overview of common algorithmic fairness metrics coming from Statistics and draw comparison between the described metrics. For simplicity, I focus on outcome-based measures of fairness (i.e., metrics that evaluate an algorithm for fairness using its outputted predictions), though, I hope to delve into more procedural-based fairness measures sometime in the future. Additionally, since many of the common fairness metrics are for discrete prediction problems, I primarily focus on those metrics in this notebook rather than fairness metrics for continuous prediction problems.</p>
-<section id="some-key-terms" class="level1">
-<h1>Some Key Terms</h1>
-<section id="true-positives-false-positives-true-negatives-and-false-negatives" class="level3">
-<h3 class="anchored" data-anchor-id="true-positives-false-positives-true-negatives-and-false-negatives">True Positives, False Positives, True Negatives, and False Negatives</h3>
+<p>In this notebook, I provide an overview of common algorithmic fairness metrics coming from Statistics and draw comparison between the described metrics. For simplicity, this notebook focuses on <strong>outcome-based measures</strong> of fairness (i.e., metrics that evaluate an algorithm for fairness using its outputted predictions). In a future notebook, I hope to delve into more procedural-based algorithm fairness measures. Additionally, since many of the common fairness metrics are for discrete prediction problems, I primarily focus on metrics in this notebook rather than fairness metrics for continuous prediction problems. For example, predicting whether or not someone will be reconvicted rather than the time-until reconviction (and whether that time is censored).</p>
+<section id="some-key-terms" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Some Key Terms</h1>
+<section id="true-positives-false-positives-true-negatives-and-false-negatives" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="true-positives-false-positives-true-negatives-and-false-negatives"><span class="header-section-number">1.1</span> True Positives, False Positives, True Negatives, and False Negatives</h2>
 <div style="float: right; margin: 5px;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="confusion-matrix.png" class="img-fluid figure-img" width="350"></p>
-<figcaption>Diagram from Analytics Vidhya.</figcaption>
+<div id="fig-confusion" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-confusion-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="confusion-matrix.png" class="img-fluid figure-img" width="350">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-confusion-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Confusion Matrix Diagram from Analytics Vidhya.
+</figcaption>
 </figure>
 </div>
 </div>
-<p>Most fairness metrics for discrete prediction algorithms use some combination of true positives, true negatives, false positives, and false negatives in their calculations. A helpful way of visualizing the difference between terms is through a confusion matrix (like the one depicted for a binary prediction algorithm on the left). Notice how true positives, true negatives, false positives, and false negatives all rely on comparing an observation’s predicted class to its true (or actual) class. Specifically, a <strong>true positive (TP)</strong> is when observation’s true class and predicted class are both positive, and a <strong>false positive (FP)</strong> is when the observation’s true class is positive but its predicted class is not. On the other hand, a <strong>true negative (TN)</strong> is when observation’s true class and predicted class are both negative, and a <strong>false negative (FN)</strong> is when the observation’s true class is positive but its predicted class is not.</p>
-<p><strong>An Real-World Example:</strong> The Correctional Offender Management Profiling for Alternative Sanctions (COMPAS) algorithm is used in US courtrooms to assess the likelihood of a defendant becoming a recidivist (i.e.&nbsp;being re-convicted) by assigning each defendant a score between 1-10 based on their predicted likelihood of recidivism. A defendant is considered to have a low risk of recidivism if their COMPAS score is between 1-4 and medium to high risk of recidivism if their COMPAS score is between 5-10. In ProPublica’s seminal analysis of COMPAS, true positives, false positives, true negatives, and false negatives are defined as follows:<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p>Most fairness metrics for discrete prediction algorithms use some combination of true positives, true negatives, false positives, and false negatives in their calculations. A helpful way of visualizing the difference between terms is through a <em>confusion matrix</em> (like the one depicted for a binary prediction algorithm in <a href="#fig-confusion" class="quarto-xref">Figure&nbsp;2</a>). Notice how true positives, true negatives, false positives, and false negatives all rely on comparing an observation’s predicted class to its true (or actual) class. Specifically, a <strong>true positive (TP)</strong> is when observation’s true class and predicted class are both positive, and a <strong>false positive (FP)</strong> is when the observation’s true class is positive but its predicted class is not. On the other hand, a <strong>true negative (TN)</strong> is when observation’s true class and predicted class are both negative, and a <strong>false negative (FN)</strong> is when the observation’s true class is positive but its predicted class is not.</p>
+<p><strong>An Real-World Example:</strong> The Correctional Offender Management Profiling for Alternative Sanctions (COMPAS) algorithm is used in US courtrooms to assess the likelihood of a defendant becoming a recidivist (i.e.&nbsp;being re-convicted) by assigning each defendant a score between 1-10 based on their predicted likelihood of recidivism. A defendant is considered to have a low risk of recidivism if their COMPAS score is between 1-4 and medium to high risk of recidivism if their COMPAS score is between 5-10. In ProPublica’s seminal analysis of COMPAS, true positives, false positives, true negatives, and false negatives would be defined as follows:<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
 <ul>
 <li>A <strong>true positive</strong> is when a defendant receives a COMPAS score between 5-10 and is re-convicted in the two years after they were scored.</li>
 <li>A <strong>false positive</strong> is when a defendant receives a COMPAS score between 5-10 but is not re-convicted in the two years after they were scored.</li>
@@ -245,60 +269,84 @@ Figure&nbsp;1: A slightly cynical perspective on algorithmic<br>fairness metrics
 <li>A <strong>false negative</strong> is when a defendant receives a COMPAS score between 1-4 but is re-convicted in the two years after they were scored.</li>
 </ul>
 </section>
-<section id="conditional-probability" class="level3">
-<h3 class="anchored" data-anchor-id="conditional-probability">Conditional Probability</h3>
-<p>Another important term to understand when talking about statistical fairness metrics is <strong>conditional probability</strong> which is the probability of an event some other event occurs. Let <em>A</em> and <em>B</em> be two events, where <em>B</em> has a non-zero probability of occurring, then the conditional probability of <em>A</em> given <em>B</em> (i.e.&nbsp;<span class="math inline">\(\mathbb{P}(A|B)\)</span>) can be calculated as follows:</p>
-<p><span class="math display">\[\mathbb{P}(A|B) = \frac{\mathbb{P}(A\cap B)}{\mathbb{P}(B)}\]</span></p>
-<p>In real-life, we rarely know the true probability of events occurring. Instead, one can estimate this probability empirically using the sample estimate. That is, one can find the proportion of times that both event <em>A</em> and event <em>B</em> occurred out of the total number of times event <em>B</em> occurred within the sample. Oftentimes, in the context of algorithmic fairness metrics, sample estimates that relevant conditional probabilities are computed by comparing the true positives, false positives, true negatives, and/or false negatives between relevant groups.</p>
+<section id="conditional-probability" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="conditional-probability"><span class="header-section-number">1.2</span> Conditional Probability</h2>
+<p>Another important concept to understand when talking about statistical fairness metrics is <strong>conditional probability</strong> which is the probability of an event given that some other event occurs. For example, let <em>A</em> and <em>B</em> be two events, where <em>B</em> has a non-zero probability of occurring, then the conditional probability of <em>A</em> given <em>B</em> (i.e.&nbsp;<span class="math inline">\mathbb{P}(A|B)</span>) can be calculated as follows:</p>
+<p><span class="math display">\mathbb{P}(A|B) = \frac{\mathbb{P}(A\cap B)}{\mathbb{P}(B)}</span></p>
+<p>In real-life cases, we rarely know the true probability of events occurring. Instead, we must estimate this probability empirically from a sample. For instance, we can find the proportion of times that both event <em>A</em> and event <em>B</em> occurred out of the total number of times that event <em>B</em> occurred in our sample.</p>
+<p>Oftentimes, in the context of outcome-based algorithmic fairness metrics, the relevant conditional probabilities are computed by comparing the true positives, false positives, true negatives, and/or false negatives between the relevant groups within a sample.</p>
 </section>
 </section>
-<section id="algorithmic-fairness-metrics" class="level1">
-<h1>Algorithmic Fairness Metrics</h1>
-<section id="equal-accuracy" class="level2">
-<h2 class="anchored" data-anchor-id="equal-accuracy">Equal Accuracy</h2>
-<p>Perhaps the most flat-footed algorithmic fairness metric is <em>Equal Accuracy</em>, which says that an algorithm is unfair if it has unequal accuracy across relevant groups. For instance, suppose we had two relevant groups, denoted as <em>A</em> and <em>B</em>. Then, according to <em>Equal Accuracy</em>, an algorithm is unfair if:<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
-<p><span class="math display">\[\mathbb{P}(\mathrm{Pred.~Class = True~Class~|~Group = A}) \neq \mathbb{P}(\mathrm{Pred.~Class = True~Class~|~Group = B})\]</span> which is to say, an algorithm is unfair when the probability that the predicted class is the same as the true class is different between relevant groups.</p>
+<section id="algorithmic-fairness-metrics" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Algorithmic Fairness Metrics</h1>
+<section id="equal-accuracy" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="equal-accuracy"><span class="header-section-number">2.1</span> Equal Accuracy</h2>
+<p>Perhaps the most flat-footed algorithmic fairness metric is <em>Equal Accuracy</em>, which says that an algorithm is unfair if it has unequal accuracy across relevant groups. That is, suppose we had two relevant groups, denoted as <em>A</em> and <em>B</em>. Then, according to <em>Equal Accuracy</em>, an algorithm is unfair if:<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+<p><span class="math display">\mathbb{P}(\mathrm{Pred.~Class = True~Class~|~Group = A}) \neq \mathbb{P}(\mathrm{Pred.~Class = True~Class~|~Group = B})</span> In other words, an algorithm is unfair when the probability that the predicted class is the same as the true class is different between relevant groups under the Equal Accuracy metric.</p>
 </section>
-<section id="predictive-parity-sometimes-also-called-equal-opportunity" class="level2">
-<h2 class="anchored" data-anchor-id="predictive-parity-sometimes-also-called-equal-opportunity">Predictive Parity (sometimes also called Equal Opportunity)</h2>
-<p>However, depending on the context of the algorithm, it might be more crucial from the perspective fairness to ensure that there is equal accuracy between groups among those predicted as part of the positive class, rather than simply guaranteeing that there is equal accuracy between the relevant groups in general (i.e., unconditioned on the individual’s predicted class). The fairness metric of <em>Predictive Parity</em> captures this concern. According to <em>Predictive Parity</em>, an algorithm is unfair between relevant groups <em>A</em> and <em>B</em> if:</p>
-<p><span class="math display">\[\mathbb{P}(\mathrm{True~Class = 1|~Pred.~Class =1,~Group = A}) \neq \mathbb{P}(\mathrm{True~Class = 1|~Pred.~Class = 1,~Group = B})\]</span> Notice how <em>Predictive Parity</em> relates to the algorithm’s <em>Positive Predictive Value (PPV) or Precision</em>. Specifically, when an algorithm satisfies <em>Predictive Parity</em>, we expect for the <em>PPV</em> for the relevant groups to be equal. That is for:</p>
-<p><span class="math display">\[\left( \frac{TP + FN}{TP + FP} \right)_\mathrm{Group~=~A} = \left( \frac{TP + FN}{TP + FP} \right)_\mathrm{Group~=~B}\]</span> Sometimes, <em>Predictive Parity</em> is also referred to as the <em>Equal Opportunity</em> metric. <strong>ADD</strong></p>
+<section id="predictive-parity-sometimes-called-equal-opportunity" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="predictive-parity-sometimes-called-equal-opportunity"><span class="header-section-number">2.2</span> Predictive Parity (sometimes called Equal Opportunity)</h2>
+<p>However, depending on the context in which the algorithm is used, it might be crucial from the perspective fairness to ensure that there is equal accuracy between groups among those predicted as part of the positive class, rather than simply guaranteeing that there is equal accuracy between the relevant groups in general (i.e., unconditioned on the individual’s predicted class). For instance, it seems more important from the perspective of fairness that a hiring algorithm correctly identify the same proportion of candidates who are qualified for a job between relevant groups than that the same proportion of candidates are correctly identified as being unqualified between relevant groups.</p>
+<p>The metric of <em>Predictive Parity</em> captures this concern. According to <em>Predictive Parity</em>, an algorithm is unfair between relevant groups <em>A</em> and <em>B</em> if:</p>
+<p><span class="math display">\mathbb{P}(\mathrm{True~Class = 1|~Pred.~Class =1,~Group = A}) \neq \mathbb{P}(\mathrm{True~Class = 1|~Pred.~Class = 1,~Group = B})</span> Notice how <em>Predictive Parity</em> relates to the algorithm’s <em>Positive Predictive Value (PPV) or Precision</em>. Specifically, when an algorithm satisfies <em>Predictive Parity</em>, we expect for the <em>PPV</em> and <em>Precision</em> for the relevant groups to be equal. That is:</p>
+<p><span class="math display">\left( \frac{TP + FN}{TP + FP} \right)_\mathrm{Group~=~A} = \left( \frac{TP + FN}{TP + FP} \right)_\mathrm{Group~=~B}</span> Sometimes, <em>Predictive Parity</em> is called the <em>Equal Opportunity</em> metric.</p>
 </section>
-<section id="equal-false-positive-rates" class="level2">
-<h2 class="anchored" data-anchor-id="equal-false-positive-rates">Equal False Positive Rates</h2>
-<p>Like <em>Predictive Parity</em>, <em>Equal False Positive Rates</em> also equalizes prediction performance among only a subset of individuals. Per the <em>Equal False Positive Rates</em> metric, an algorithm is unfair if e probability that it mispredicts an individual whose true class is positive as negative is different between relevant groups, or written formally if:</p>
-<p><span class="math display">\[\mathbb{P}(\mathrm{Pred.~Class = 1|~True~Class = 0,~Group = A}) \neq \mathbb{P}(\mathrm{Pred.~Class = 1|~True~Class = 0,~Group = B})\]</span></p>
-<p>Here, the goal of <em>Equal False Positive Rates</em> is to prevent an algorithm from</p>
+<section id="equal-false-positive-rates" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="equal-false-positive-rates"><span class="header-section-number">2.3</span> Equal False Positive Rates</h2>
+<p>Like the <em>Predictive Parity</em> metric, the <em>Equal False Positive Rates</em> metric only equalizes prediction performance among a subset of individuals in the relevant groups. Per the <em>Equal False Positive Rates</em> metric, an algorithm is unfair if the probability that an individual whose true class is negative is predicted as positive differs between the relevant groups. This can be formalized as:</p>
+<p><span class="math display">\mathbb{P}(\mathrm{Pred.~Class = 1|~True~Class = 0,~Group = A}) \neq \mathbb{P}(\mathrm{Pred.~Class = 1|~True~Class = 0,~Group = B})</span></p>
+<p>For example, using <em>Equal False Positive Rates</em> as a fairness metric would prevent cases where more people in group <em>A</em> are incorrectly identified as recidivists than in group <em>B</em>. In the ProPublica report on the COMPAS algorithm, <strong>ADD</strong> argue COMPAS is biased, and thus unfair, on the basis on unequal false positive rates between Black and White defendants. Specifically, they found that Black defendants were two times more likely to be falsely labeled as future criminals than white defendants.</p>
 </section>
-<section id="equal-false-negative-rates" class="level2">
-<h2 class="anchored" data-anchor-id="equal-false-negative-rates">Equal False Negative Rates</h2>
-<p>Along a similar vein to <em>Equal False Positive Rates</em> is <em>Equal False Negative Rates</em>, which says that an algorithm is unfair if the probability that it mispredicts an individual whose true class is negative as positive is different between relevant groups. That is:</p>
-<p><span class="math display">\[\mathbb{P}(\mathrm{Pred.~Class = 0|~True~Class = 1,~Group = A}) \neq \mathbb{P}(\mathrm{Pred.~Class = 0|~True~Class = 1,~Group = B})\]</span></p>
+<section id="equal-false-negative-rates" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="equal-false-negative-rates"><span class="header-section-number">2.4</span> Equal False Negative Rates</h2>
+<p>Along a similar vein to <em>Equal False Positive Rates</em> is the fairness metric of <em>Equal False Negative Rates</em>, which says that an algorithm is unfair if the probability that an individual whose true class is negative will be predicted as positive differs between relevant groups:</p>
+<p><span class="math display">\mathbb{P}(\mathrm{Pred.~Class = 0|~True~Class = 1,~Group = A}) \neq \mathbb{P}(\mathrm{Pred.~Class = 0|~True~Class = 1,~Group = B})</span></p>
+<p><strong>ADD</strong> also found that COMPAS had different false negative rates between Black and white defendants. Namely, “white defendants were mislabeled as low risk more often than black defendants”, which they also used to justify their conclusion that the COMPAS algorith was biased and thus unfair <strong>CITE</strong>.</p>
 </section>
-<section id="equal-ratios-of-false-positive-rates-to-false-negative-rates" class="level2">
-<h2 class="anchored" data-anchor-id="equal-ratios-of-false-positive-rates-to-false-negative-rates">Equal Ratios of False Positive Rates to False Negative Rates</h2>
-<p>A looser requirement for algorithmic fairness is <em>Equal Ratios of False Positive Rates to False Negative Rates</em>, which does not need neither <em>Equal False Positive Rates</em> nor <em>Equal False Negative Rates</em> between relevant groups. Putting together the formalizations of the two prior metrics, we get that an algorithm is unfair, according to <em>Equal Ratios of False Positive Rates to False Negative Rates</em>, if:</p>
-<p><span class="math display">\[\frac{\mathbb{P}(\mathrm{Pred.~Class = 1|~True~Class = 0,~Group = A})}{\mathbb{P}(\mathrm{Pred.~Class = 0|~True~Class = 1,~Group = A})} \neq \frac{\mathbb{P}(\mathrm{Pred.~Class = 1|~True~Class = 0,~Group = B})}{\mathbb{P}(\mathrm{Pred.~Class = 0|~True~Class = 1,~Group = B})}\]</span></p>
-<p>One reason why we might care about <em>Equal Ratios of False Positive Rates to False Negative Rates</em> for algorithmic fairness is because we care about the algorithm</p>
+<section id="equal-ratios-of-false-positive-rates-to-false-negative-rates" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="equal-ratios-of-false-positive-rates-to-false-negative-rates"><span class="header-section-number">2.5</span> Equal Ratios of False Positive Rates to False Negative Rates</h2>
+<p>A looser requirement for algorithmic fairness is <em>Equal Ratios of False Positive Rates to False Negative Rates</em>, which does not require either <em>Equal False Positive Rates</em> or <em>Equal False Negative Rates</em> to hold between relevant groups. Putting together the formalizations of the two prior metrics, we get that an algorithm is unfair, according to <em>Equal Ratios of False Positive Rates to False Negative Rates</em>, if:</p>
+<p><span class="math display">\frac{\mathbb{P}(\mathrm{Pred.~Class = 1|~True~Class = 0,~Group = A})}{\mathbb{P}(\mathrm{Pred.~Class = 0|~True~Class = 1,~Group = A})} \neq \frac{\mathbb{P}(\mathrm{Pred.~Class = 1|~True~Class = 0,~Group = B})}{\mathbb{P}(\mathrm{Pred.~Class = 0|~True~Class = 1,~Group = B})}</span></p>
+<p>At first glance, it is hard to understand why would care about equal ratios of false positive rates to false negative rates; would it not make more sense to want both equal false positive rates and equal false negative rates to hold between relevant groups? One reason that we might care about <em>Equal Ratios of False Positive Rates to False Negative Rates</em> for algorithmic fairness is because we care about the algorithm <strong>ADD</strong></p>
 </section>
-<section id="demographicstatistical-parity" class="level2">
-<h2 class="anchored" data-anchor-id="demographicstatistical-parity">Demographic/Statistical Parity</h2>
-<p><span class="math display">\[\mathbb{P}(\mathrm{Pred.~Class = 1~|~Group = A}) \neq \mathbb{P}(\mathrm{Pred.~Class = 1~|~Group = B})\]</span></p>
+<section id="demographicstatistical-parity" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="demographicstatistical-parity"><span class="header-section-number">2.6</span> Demographic/Statistical Parity</h2>
+<p><span class="math display">\mathbb{P}(\mathrm{Pred.~Class = 1~|~Group = A}) \neq \mathbb{P}(\mathrm{Pred.~Class = 1~|~Group = B})</span></p>
 </section>
-<section id="equalized-odds" class="level2">
-<h2 class="anchored" data-anchor-id="equalized-odds">Equalized Odds</h2>
-<p><span class="math display">\[\mathbb{P}(\mathrm{Pred.~Class = 1|~True~Class = X,~Group = A}) \neq \mathbb{P}(\mathrm{Pred.~Class = 1|~True~Class = X,~Group = B})\]</span> <em>where <span class="math inline">\(X \in \{0,1\}\)</span></em></p>
+<section id="equalized-odds" class="level2" data-number="2.7">
+<h2 data-number="2.7" class="anchored" data-anchor-id="equalized-odds"><span class="header-section-number">2.7</span> Equalized Odds</h2>
+<p><span class="math display">\mathbb{P}(\mathrm{Pred.~Class = 1|~True~Class = X,~Group = A}) \neq \mathbb{P}(\mathrm{Pred.~Class = 1|~True~Class = X,~Group = B})</span> <em>where,</em> <span class="math inline">X \in \{0,1\}</span></p>
 <hr>
 </section>
-<section id="calibration-within-groups" class="level2">
-<h2 class="anchored" data-anchor-id="calibration-within-groups">Calibration within Groups</h2>
+<section id="calibration-within-groups" class="level2" data-number="2.8">
+<h2 data-number="2.8" class="anchored" data-anchor-id="calibration-within-groups"><span class="header-section-number">2.8</span> Calibration within Groups</h2>
 </section>
-<section id="balance-for-positive-class" class="level2">
-<h2 class="anchored" data-anchor-id="balance-for-positive-class">Balance for Positive Class</h2>
+<section id="balance-for-positive-class" class="level2" data-number="2.9">
+<h2 data-number="2.9" class="anchored" data-anchor-id="balance-for-positive-class"><span class="header-section-number">2.9</span> Balance for Positive Class</h2>
 </section>
-<section id="balance-for-negative-class" class="level2">
-<h2 class="anchored" data-anchor-id="balance-for-negative-class">Balance for Negative Class</h2>
+<section id="balance-for-negative-class" class="level2" data-number="2.10">
+<h2 data-number="2.10" class="anchored" data-anchor-id="balance-for-negative-class"><span class="header-section-number">2.10</span> Balance for Negative Class</h2>
+</section>
+</section>
+<section id="concerns-with-outcome-based-fairness-metrics" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Concerns with Outcome-Based Fairness Metrics</h1>
+<section id="impossibility-results" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="impossibility-results"><span class="header-section-number">3.1</span> Impossibility Results</h2>
+<p>One of the largest concerns in the Statistics and Machine Learning communities with outcome-based algorithmic fairness metrics is that it has been mathematically proven that three intuitively appealing outcome-based metrics for algorithmic fairness – (1) calibration within groups, (2) equal false positive rates, and (3) equal false negative rates – cannot be simultaneously satisfied when the base rates (i.e., the rate of positive instances) differ between the relevant groups (see <strong>CITE</strong>). In turn, <strong>ADD</strong>.</p>
+<p>A natural conclusion given the impossible results is that algorithmic fairness is not possible if the base rates differ between relevant groups. However, it is important to note that this conclusion relies on a hidden premise that ….</p>
+<p>I would argue that …</p>
+</section>
+<section id="defining-revelant-groups" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="defining-revelant-groups"><span class="header-section-number">3.2</span> Defining “Revelant Groups”</h2>
+<p>Group-based fairness metrics, which includes all of the ones that I outline in this notebook, require a condition to hold among “relevant groups”. Usually, “relevant groups” is treated as synonymous with groups that correspond to federally protected characteristics, which include race, color, religion, sex, sexual orientation, disability status, and age <strong>CITE</strong>.</p>
+<p>Further, what identity group is “socially salient” likely changes between contexts. Indeed, <strong>add</strong> note that from the perspective of algorithmic justice, we care about comparing the model’s performance for “systematically disadvantaged groups” against that for “systematically advantaged groups” (see their <em>Prioritarian Performance Principle</em>). Yet, as they note, their principle requires a social ontology to determine the relative social position of groups in a given context and, often, socially salient groups can overlap since social positions are complex and intersectional in real-life. For example, <strong>ADD</strong></p>
+</section>
+<section id="additional-resources" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="additional-resources"><span class="header-section-number">3.3</span> Additional Resources</h2>
+<ul>
+<li><p>….</p></li>
+<li><p>….</p></li>
+</ul>
 
 
 </section>
@@ -308,8 +356,8 @@ Figure&nbsp;1: A slightly cynical perspective on algorithmic<br>fairness metrics
 <div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1"><p>From the COMPAS example, can already see a point of contention in characterizing algorithmic fairness for discrete prediction problems, which is what threshold to use for decision-making. For example, why separate low from medium to high risk of recidivism at 4-5 rather than 3-4 or 5-6?<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>You might notice that in this notebook, I interpret each fairness metric as a <strong>necessary</strong> but not necessarily sufficient condition of algorithm fairness, meaning that an algorithm would be considered <em>unfair</em> if it does not satisfy <em>X</em> metric necessary for algorithmic fairness but it would not necessarily be <em>fair</em> if it does satisfy the required metric. This, in my opinion, is the most charitable way of interpreting the common statistical fairness metrics that I discuss in this notebook.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>From the COMPAS example, we can already see a point of contention in characterizing algorithmic fairness for discrete prediction problems, which is what threshold to use for decision-making? For example, why separate low from medium to high risk of recidivism at 4-5 rather than 3-4 or 5-6? How do we think about fairness when determining decision thresholds?<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>In this notebook, I interpret each fairness metric as a <strong>necessary</strong> but not necessarily sufficient condition of algorithm fairness, meaning that an algorithm would be considered <em>unfair</em> if it does not satisfy <em>X</em> metric necessary for algorithmic fairness but it would not necessarily be <em>fair</em> if it does satisfy the required metric. This, in my opinion, is the most charitable way of interpreting the common statistical fairness metrics that I discuss in this notebook.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -404,7 +452,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("scolando\.github\.io\/personal-website\/");
+      var filterRegex = new RegExp("https:\/\/scolando\.github\.io\/personal-website\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
